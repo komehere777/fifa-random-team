@@ -1,632 +1,5282 @@
 [
-{"teamname": "Juventus", "league": "Serie A TIM", "rating": "86"},
-{"teamname": "FC Barcelona", "league": "LaLiga Santander", "rating": "86"},
-{"teamname": "Real Madrid", "league": "LaLiga Santander", "rating": "86"},
-{"teamname": "FC Bayern", "league": "Bundesliga", "rating": "85"},
-{"teamname": "Manchester City", "league": "Premier League", "rating": "85"},
-{"teamname": "PSG", "league": "Ligue 1 Conforama", "rating": "84"},
-{"teamname": "Atl\u00e9tico Madrid", "league": "LaLiga Santander", "rating": "84"},
-{"teamname": "Tottenham", "league": "Premier League", "rating": "83"},
-{"teamname": "Chelsea", "league": "Premier League", "rating": "83"},
-{"teamname": "Liverpool", "league": "Premier League", "rating": "83"},
-{"teamname": "Manchester Utd", "league": "Premier League", "rating": "83"},
-{"teamname": "Internazionale", "league": "Serie A TIM", "rating": "82"},
-{"teamname": "Arsenal", "league": "Premier League", "rating": "82"},
-{"teamname": "Napoli", "league": "Serie A TIM", "rating": "82"},
-{"teamname": "Bor. Dortmund", "league": "Bundesliga", "rating": "81"},
-{"teamname": "Valencia CF", "league": "LaLiga Santander", "rating": "81"},
-{"teamname": "AC Milan", "league": "Serie A TIM", "rating": "81"},
-{"teamname": "Lazio", "league": "Serie A TIM", "rating": "80"},
-{"teamname": "AS Roma", "league": "Serie A TIM", "rating": "80"},
-{"teamname": "Sevilla FC", "league": "LaLiga Santander", "rating": "80"},
-{"teamname": "Bayer 04", "league": "Bundesliga", "rating": "80"},
-{"teamname": "FC Porto", "league": "Liga NOS", "rating": "80"},
-{"teamname": "Real Betis", "league": "LaLiga Santander", "rating": "80"},
-{"teamname": "OL", "league": "Ligue 1 Conforama", "rating": "79"},
-{"teamname": "Sporting CP", "league": "Liga NOS", "rating": "79"},
-{"teamname": "SL Benfica", "league": "Liga NOS", "rating": "79"},
-{"teamname": "Athletic Bilbao", "league": "LaLiga Santander", "rating": "79"},
-{"teamname": "M'gladbach", "league": "Bundesliga", "rating": "79"},
-{"teamname": "Everton", "league": "Premier League", "rating": "79"},
-{"teamname": "OM", "league": "Ligue 1 Conforama", "rating": "79"},
-{"teamname": "Estudiantes", "league": "SAF", "rating": "70"},
-{"teamname": "Sporting KC", "league": "MLS", "rating": "71"},
-{"teamname": "Chievo Verona", "league": "Serie A TIM", "rating": "75"},
-{"teamname": "Granada CF", "league": "LaLiga 1 I 2 I 3", "rating": "70"},
-{"teamname": "C\u00e1diz CF", "league": "LaLiga 1 I 2 I 3", "rating": "70"},
-{"teamname": "Desportivo Aves", "league": "Liga NOS", "rating": "70"},
-{"teamname": "FC Metz", "league": "Domino\u2019s Ligue 2", "rating": "70"},
-{"teamname": "Birmingham City", "league": "EFL Championship", "rating": "70"},
-{"teamname": "Kaizer Chiefs", "league": "Overige", "rating": "70"},
-{"teamname": "Antalyaspor", "league": "S\u00fcper Lig", "rating": "70"},
-{"teamname": "Real Zaragoza", "league": "LaLiga 1 I 2 I 3", "rating": "70"},
-{"teamname": "KV Kortrijk", "league": "Pro League", "rating": "70"},
-{"teamname": "Shanghai SIPG", "league": "CSL", "rating": "70"},
-{"teamname": "Columbus Crew", "league": "MLS", "rating": "70"},
-{"teamname": "Sheffield Utd", "league": "EFL Championship", "rating": "70"},
-{"teamname": "CA Osasuna", "league": "LaLiga 1 I 2 I 3", "rating": "70"},
-{"teamname": "N\u00eemes Olympique", "league": "Ligue 1 Conforama", "rating": "70"},
-{"teamname": "Sport Recife", "league": "Liga do Brasil", "rating": "70"},
-{"teamname": "Uni\u00f3n", "league": "SAF", "rating": "70"},
-{"teamname": "QPR", "league": "EFL Championship", "rating": "70"},
-{"teamname": "Tigre", "league": "SAF", "rating": "70"},
-{"teamname": "Preston", "league": "EFL Championship", "rating": "70"},
-{"teamname": "CD Tenerife", "league": "LaLiga 1 I 2 I 3", "rating": "70"},
-{"teamname": "FC Ingolstadt", "league": "Bundesliga 2", "rating": "70"},
-{"teamname": "GD Chaves", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Moreirense FC", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Union Berlin", "league": "Bundesliga 2", "rating": "71"},
-{"teamname": "Bahia", "league": "Liga do Brasil", "rating": "71"},
-{"teamname": "Uni. Cat\u00f3lica", "league": "Camp. Scotiabank", "rating": "71"},
-{"teamname": "Chapecoense", "league": "Liga do Brasil", "rating": "71"},
-{"teamname": "V. Set\u00fabal", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Atl. Nacional", "league": "Liga Dimayor", "rating": "71"},
-{"teamname": "Beijing Guoan", "league": "CSL", "rating": "70"},
-{"teamname": "Lan\u00fas", "league": "SAF", "rating": "70"},
-{"teamname": "Legia Warszawa", "league": "Ekstraklasa", "rating": "70"},
-{"teamname": "Portland Timbers", "league": "MLS", "rating": "70"},
-{"teamname": "D.C. United", "league": "MLS", "rating": "70"},
-{"teamname": "Atl\u00e9tico Tucum\u00e1n", "league": "SAF", "rating": "70"},
-{"teamname": "CD Feirense", "league": "Liga NOS", "rating": "70"},
-{"teamname": "U.N.A.M.", "league": "LIGA Bancomer MX", "rating": "70"},
-{"teamname": "Malm\u00f6 FF", "league": "Allsvenskan", "rating": "70"},
-{"teamname": "Bristol City", "league": "EFL Championship", "rating": "70"},
-{"teamname": "Panathinaikos", "league": "Overige", "rating": "70"},
-{"teamname": "Yeni Malatyaspor", "league": "S\u00fcper Lig", "rating": "70"},
-{"teamname": "Ind. Santa Fe", "league": "Liga Dimayor", "rating": "70"},
-{"teamname": "Brentford", "league": "EFL Championship", "rating": "70"},
-{"teamname": "Hellas Verona", "league": "Calcio B", "rating": "70"},
-{"teamname": "Pachuca", "league": "LIGA Bancomer MX", "rating": "72"},
-{"teamname": "Huddersfield", "league": "Premier League", "rating": "75"},
-{"teamname": "PAOK Saloniki", "league": "Overige", "rating": "75"},
-{"teamname": "CD Legan\u00e9s", "league": "LaLiga Santander", "rating": "75"},
-{"teamname": "Gr\u00eamio", "league": "Liga do Brasil", "rating": "75"},
-{"teamname": "Stade Rennes", "league": "Ligue 1 Conforama", "rating": "75"},
-{"teamname": "LOSC Lille", "league": "Ligue 1 Conforama", "rating": "74"},
-{"teamname": "Atl\u00e9tico Mineiro", "league": "Liga do Brasil", "rating": "74"},
-{"teamname": "Rayo Vallecano", "league": "LaLiga Santander", "rating": "74"},
-{"teamname": "Udinese", "league": "Serie A TIM", "rating": "74"},
-{"teamname": "SPAL", "league": "Serie A TIM", "rating": "74"},
-{"teamname": "Monterrey", "league": "LIGA Bancomer MX", "rating": "74"},
-{"teamname": "Hannover 96", "league": "Bundesliga", "rating": "74"},
-{"teamname": "SC Freiburg", "league": "Bundesliga", "rating": "74"},
-{"teamname": "Club Brugge", "league": "Pro League", "rating": "74"},
-{"teamname": "Montpellier HSC", "league": "Ligue 1 Conforama", "rating": "74"},
-{"teamname": "Genoa", "league": "Serie A TIM", "rating": "74"},
-{"teamname": "1. FSV Mainz 05", "league": "Bundesliga", "rating": "74"},
-{"teamname": "FC Schalke 04", "league": "Bundesliga", "rating": "79"},
-{"teamname": "Millonarios", "league": "Liga Dimayor", "rating": "70"},
-{"teamname": "\u00c7aykur Rizespor", "league": "S\u00fcper Lig", "rating": "70"},
-{"teamname": "Funchal", "league": "Liga NOS", "rating": "70"},
-{"teamname": "Sint-Truiden", "league": "Pro League", "rating": "70"},
-{"teamname": "FC St. Pauli", "league": "Bundesliga 2", "rating": "70"},
-{"teamname": "Quer\u00e9taro", "league": "LIGA Bancomer MX", "rating": "70"},
-{"teamname": "Rosenborg BK", "league": "Eliteserien", "rating": "70"},
-{"teamname": "Tijuana", "league": "LIGA Bancomer MX", "rating": "70"},
-{"teamname": "FC Basel", "league": "RSL", "rating": "73"},
-{"teamname": "Getafe CF", "league": "LaLiga Santander", "rating": "76"},
-{"teamname": "BSC Young Boys", "league": "RSL", "rating": "71"},
-{"teamname": "SV Darmstadt", "league": "Bundesliga 2", "rating": "70"},
-{"teamname": "Sagan Tosu", "league": "Meiji Yasuda J1", "rating": "68"},
-{"teamname": "Cercle Brugge", "league": "Pro League", "rating": "68"},
-{"teamname": "Impact Montr\u00e9al", "league": "MLS", "rating": "70"},
-{"teamname": "Al Ittihad", "league": "Saudi Professional League", "rating": "70"},
-{"teamname": "FC Midtjylland", "league": "Superliga", "rating": "70"},
-{"teamname": "Bochum", "league": "Bundesliga 2", "rating": "70"},
-{"teamname": "Atlas", "league": "LIGA Bancomer MX", "rating": "70"},
-{"teamname": "Sp. Charleroi", "league": "Pro League", "rating": "70"},
-{"teamname": "Norwich City", "league": "EFL Championship", "rating": "72"},
-{"teamname": "Cruz Azul", "league": "LIGA Bancomer MX", "rating": "72"},
-{"teamname": "M\u00e1laga CF", "league": "LaLiga 1 I 2 I 3", "rating": "72"},
-{"teamname": "Leeds Utd", "league": "EFL Championship", "rating": "72"},
-{"teamname": "F. D\u00fcsseldorf", "league": "Bundesliga", "rating": "72"},
-{"teamname": "Dinamo Zagreb", "league": "Overige", "rating": "72"},
-{"teamname": "Santos Laguna", "league": "LIGA Bancomer MX", "rating": "72"},
-{"teamname": "Kayserispor", "league": "S\u00fcper Lig", "rating": "72"},
-{"teamname": "San Lorenzo", "league": "SAF", "rating": "72"},
-{"teamname": "MKE Ankarag\u00fcc\u00fc", "league": "S\u00fcper Lig", "rating": "72"},
-{"teamname": "AZ", "league": "Eredivisie", "rating": "72"},
-{"teamname": "Middlesbrough", "league": "EFL Championship", "rating": "72"},
-{"teamname": "KAA Gent", "league": "Pro League", "rating": "72"},
-{"teamname": "Empoli", "league": "Serie A TIM", "rating": "72"},
-{"teamname": "Col\u00f3n", "league": "SAF", "rating": "72"},
-{"teamname": "G\u00f6ztepe", "league": "S\u00fcper Lig", "rating": "72"},
-{"teamname": "Derby County", "league": "EFL Championship", "rating": "72"},
-{"teamname": "Rangers", "league": "Scottish Prem", "rating": "72"},
-{"teamname": "Vitesse", "league": "Eredivisie", "rating": "72"},
-{"teamname": "Internacional", "league": "Liga do Brasil", "rating": "74"},
-{"teamname": "Celtic", "league": "Scottish Prem", "rating": "74"},
-{"teamname": "V. Guimar\u00e3es", "league": "Liga NOS", "rating": "74"},
-{"teamname": "Stoke City", "league": "EFL Championship", "rating": "74"},
-{"teamname": "Al Hilal", "league": "Saudi Professional League", "rating": "73"},
-{"teamname": "KRC Genk", "league": "Pro League", "rating": "73"},
-{"teamname": "Trabzonspor", "league": "S\u00fcper Lig", "rating": "73"},
-{"teamname": "West Brom", "league": "EFL Championship", "rating": "73"},
-{"teamname": "Dijon FCO", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "Parma", "league": "Serie A TIM", "rating": "73"},
-{"teamname": "Aston Villa", "league": "EFL Championship", "rating": "73"},
-{"teamname": "Real Valladolid", "league": "LaLiga Santander", "rating": "73"},
-{"teamname": "Villarreal CF", "league": "LaLiga Santander", "rating": "79"},
-{"teamname": "Leicester City", "league": "Premier League", "rating": "78"},
-{"teamname": "AS Monaco", "league": "Ligue 1 Conforama", "rating": "78"},
-{"teamname": "RB Leipzig", "league": "Bundesliga", "rating": "78"},
-{"teamname": "West Ham Utd", "league": "Premier League", "rating": "78"},
-{"teamname": "Ajax", "league": "Eredivisie", "rating": "78"},
-{"teamname": "TSG Hoffenheim", "league": "Bundesliga", "rating": "78"},
-{"teamname": "Torino", "league": "Serie A TIM", "rating": "77"},
-{"teamname": "Celta Vigo", "league": "LaLiga Santander", "rating": "77"},
-{"teamname": "SD Eibar", "league": "LaLiga Santander", "rating": "77"},
-{"teamname": "Eint. Frankfurt", "league": "Bundesliga", "rating": "77"},
-{"teamname": "Lokomotiv Moskou", "league": "Overige", "rating": "77"},
-{"teamname": "Watford", "league": "Premier League", "rating": "77"},
-{"teamname": "Real Sociedad", "league": "LaLiga Santander", "rating": "77"},
-{"teamname": "Crystal Palace", "league": "Premier League", "rating": "77"},
-{"teamname": "VfL Wolfsburg", "league": "Bundesliga", "rating": "77"},
-{"teamname": "Gda\u0144sk", "league": "Ekstraklasa", "rating": "67"},
-{"teamname": "Exc. Moeskroen", "league": "Pro League", "rating": "67"},
-{"teamname": "Am\u00e9rica", "league": "LIGA Bancomer MX", "rating": "73"},
-{"teamname": "EA Guingamp", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "RB Salzburg", "league": "\u00d6. Bundesliga", "rating": "73"},
-{"teamname": "Deportivo", "league": "LaLiga 1 I 2 I 3", "rating": "73"},
-{"teamname": "Cardiff City", "league": "Premier League", "rating": "73"},
-{"teamname": "SM Caen", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "Standard Luik", "league": "Pro League", "rating": "73"},
-{"teamname": "Cruzeiro", "league": "Liga do Brasil", "rating": "73"},
-{"teamname": "Frosinone", "league": "Serie A TIM", "rating": "73"},
-{"teamname": "Toulouse FC", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "Angers SCO", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "Strasbourg", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "AEK Athene", "league": "Overige", "rating": "73"},
-{"teamname": "RSC Anderlecht", "league": "Pro League", "rating": "73"},
-{"teamname": "Hamburger SV", "league": "Bundesliga 2", "rating": "73"},
-{"teamname": "Fluminense", "league": "Liga do Brasil", "rating": "73"},
-{"teamname": "CSKA Moskou", "league": "Overige", "rating": "73"},
-{"teamname": "Amiens SC", "league": "Ligue 1 Conforama", "rating": "73"},
-{"teamname": "Alanyaspor", "league": "S\u00fcper Lig", "rating": "72"},
-{"teamname": "SD Huesca", "league": "LaLiga Santander", "rating": "72"},
-{"teamname": "Notting. Forest", "league": "EFL Championship", "rating": "72"},
-{"teamname": "Hertha BSC", "league": "Bundesliga", "rating": "76"},
-{"teamname": "Buenos Aires", "league": "SAF", "rating": "76"},
-{"teamname": "Wolves", "league": "Premier League", "rating": "76"},
-{"teamname": "River Plate", "league": "SAF", "rating": "76"},
-{"teamname": "Spartak Moskou", "league": "Overige", "rating": "76"},
-{"teamname": "Fiorentina", "league": "Serie A TIM", "rating": "76"},
-{"teamname": "VfB Stuttgart", "league": "Bundesliga", "rating": "76"},
-{"teamname": "Newcastle Utd", "league": "Premier League", "rating": "76"},
-{"teamname": "Fulham", "league": "Premier League", "rating": "76"},
-{"teamname": "AS Saint-\u00c9tienne", "league": "Ligue 1 Conforama", "rating": "76"},
-{"teamname": "Shakhtar Donetsk", "league": "Overige", "rating": "76"},
-{"teamname": "Medipol Ba\u015fak\u015fehir", "league": "S\u00fcper Lig", "rating": "76"},
-{"teamname": "Galatasaray", "league": "S\u00fcper Lig", "rating": "76"},
-{"teamname": "Tigres", "league": "LIGA Bancomer MX", "rating": "75"},
-{"teamname": "Sampdoria", "league": "Serie A TIM", "rating": "75"},
-{"teamname": "Feyenoord", "league": "Eredivisie", "rating": "75"},
-{"teamname": "Dynamo Kyiv", "league": "Overige", "rating": "75"},
-{"teamname": "OGC Nice", "league": "Ligue 1 Conforama", "rating": "75"},
-{"teamname": "Fenerbah\u00e7e", "league": "S\u00fcper Lig", "rating": "75"},
-{"teamname": "Sassuolo", "league": "Serie A TIM", "rating": "75"},
-{"teamname": "FC Augsburg", "league": "Bundesliga", "rating": "75"},
-{"teamname": "Racing Club", "league": "SAF", "rating": "75"},
-{"teamname": "Bologna", "league": "Serie A TIM", "rating": "75"},
-{"teamname": "Giron. Bordeaux", "league": "Ligue 1 Conforama", "rating": "75"},
-{"teamname": "Independiente", "league": "SAF", "rating": "75"},
-{"teamname": "Rio Ave FC", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Portimonense SC", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Santos", "league": "Liga do Brasil", "rating": "71"},
-{"teamname": "NY Red Bulls", "league": "MLS", "rating": "71"},
-{"teamname": "Guadalajara", "league": "LIGA Bancomer MX", "rating": "71"},
-{"teamname": "Bursaspor", "league": "S\u00fcper Lig", "rating": "71"},
-{"teamname": "Akhisarspor", "league": "S\u00fcper Lig", "rating": "71"},
-{"teamname": "Le\u00f3n", "league": "LIGA Bancomer MX", "rating": "71"},
-{"teamname": "Sivasspor", "league": "S\u00fcper Lig", "rating": "71"},
-{"teamname": "Seattle Sounders", "league": "MLS", "rating": "71"},
-{"teamname": "Vit\u00f3ria", "league": "Liga do Brasil", "rating": "71"},
-{"teamname": "Atlanta United", "league": "MLS", "rating": "71"},
-{"teamname": "Kasimpa\u015fa", "league": "S\u00fcper Lig", "rating": "71"},
-{"teamname": "Real Oviedo", "league": "LaLiga 1 I 2 I 3", "rating": "71"},
-{"teamname": "Mar\u00edtimo", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Boavista FC", "league": "Liga NOS", "rating": "71"},
-{"teamname": "Junior", "league": "Liga Dimayor", "rating": "71"},
-{"teamname": "Sheffield Wed.", "league": "EFL Championship", "rating": "71"},
-{"teamname": "Al Nassr", "league": "Saudi Professional League", "rating": "71"},
-{"teamname": "Am\u00e9rica", "league": "Liga do Brasil", "rating": "71"},
-{"teamname": "Rosario Central", "league": "SAF", "rating": "71"},
-{"teamname": "Palermo", "league": "Calcio B", "rating": "71"},
-{"teamname": "LAFC", "league": "MLS", "rating": "71"},
-{"teamname": "Konyaspor", "league": "S\u00fcper Lig", "rating": "71"},
-{"teamname": "Atl. Paranaense", "league": "Liga do Brasil", "rating": "70"},
-{"teamname": "Sparta Praha", "league": "Overige", "rating": "70"},
-{"teamname": "KV Oostende", "league": "Pro League", "rating": "70"},
-{"teamname": "Defensa", "league": "SAF", "rating": "70"},
-{"teamname": "Paran\u00e1", "league": "Liga do Brasil", "rating": "70"},
-{"teamname": "FC Dallas", "league": "MLS", "rating": "70"},
-{"teamname": "Monarcas Morelia", "league": "LIGA Bancomer MX", "rating": "70"},
-{"teamname": "Kawasaki Front.", "league": "Meiji Yasuda J1", "rating": "69"},
-{"teamname": "Zulte-Waregem", "league": "Pro League", "rating": "69"},
-{"teamname": "Minnesota United", "league": "MLS", "rating": "69"},
-{"teamname": "Orlando City", "league": "MLS", "rating": "69"},
-{"teamname": "Whitecaps FC", "league": "MLS", "rating": "69"},
-{"teamname": "Newell's", "league": "SAF", "rating": "69"},
-{"teamname": "Real Salt Lake", "league": "MLS", "rating": "69"},
-{"teamname": "N\u00e0stic", "league": "LaLiga 1 I 2 I 3", "rating": "69"},
-{"teamname": "Arminia Bielefeld", "league": "Bundesliga 2", "rating": "69"},
-{"teamname": "Necaxa", "league": "LIGA Bancomer MX", "rating": "69"},
-{"teamname": "Kashima Antlers", "league": "Meiji Yasuda J1", "rating": "69"},
-{"teamname": "AD Alcorc\u00f3n", "league": "LaLiga 1 I 2 I 3", "rating": "69"},
-{"teamname": "Wigan Athletic", "league": "EFL Championship", "rating": "69"},
-{"teamname": "ES Troyes AC", "league": "Domino\u2019s Ligue 2", "rating": "69"},
-{"teamname": "Foggia", "league": "Calcio B", "rating": "69"},
-{"teamname": "Urawa Red Diam.", "league": "Meiji Yasuda J1", "rating": "69"},
-{"teamname": "AIK", "league": "Allsvenskan", "rating": "69"},
-{"teamname": "Lech Pozna\u0144", "league": "Ekstraklasa", "rating": "68"},
-{"teamname": "Veracruz", "league": "LIGA Bancomer MX", "rating": "68"},
-{"teamname": "Brescia", "league": "Calcio B", "rating": "68"},
-{"teamname": "AC Ajaccio", "league": "Domino\u2019s Ligue 2", "rating": "68"},
-{"teamname": "Willem II", "league": "Eredivisie", "rating": "68"},
-{"teamname": "SJ Earthquakes", "league": "MLS", "rating": "68"},
-{"teamname": "New England", "league": "MLS", "rating": "68"},
-{"teamname": "BB Erzurumspor", "league": "S\u00fcper Lig", "rating": "68"},
-{"teamname": "Heracles Almelo", "league": "Eredivisie", "rating": "68"},
-{"teamname": "Godoy Cruz", "league": "SAF", "rating": "68"},
-{"teamname": "Molde FK", "league": "Eliteserien", "rating": "68"},
-{"teamname": "FC Lorient", "league": "Domino\u2019s Ligue 2", "rating": "68"},
-{"teamname": "PEC Zwolle", "league": "Eredivisie", "rating": "68"},
-{"teamname": "Venezia", "league": "Calcio B", "rating": "68"},
-{"teamname": "CF Reus", "league": "LaLiga 1 I 2 I 3", "rating": "68"},
-{"teamname": "Paderborn", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "FC Groningen", "league": "Eredivisie", "rating": "68"},
-{"teamname": "Suwon Samsung", "league": "K-League 1", "rating": "68"},
-{"teamname": "RC Lens", "league": "Domino\u2019s Ligue 2", "rating": "68"},
-{"teamname": "CD Palestino", "league": "Camp. Scotiabank", "rating": "68"},
-{"teamname": "Kashiwa Reysol", "league": "Meiji Yasuda J1", "rating": "68"},
-{"teamname": "Chicago Fire", "league": "MLS", "rating": "68"},
-{"teamname": "Perugia", "league": "Calcio B", "rating": "68"},
-{"teamname": "Aldosivi", "league": "SAF", "rating": "68"},
-{"teamname": "Pescara", "league": "Calcio B", "rating": "68"},
-{"teamname": "Orlando Pirates", "league": "Overige", "rating": "68"},
-{"teamname": "Kiel", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "IFK Norrk\u00f6ping", "league": "Allsvenskan", "rating": "68"},
-{"teamname": "Stade Brest", "league": "Domino\u2019s Ligue 2", "rating": "68"},
-{"teamname": "Rionegro \u00c1guilas", "league": "Liga Dimayor", "rating": "68"},
-{"teamname": "UD Almer\u00eda", "league": "LaLiga 1 I 2 I 3", "rating": "68"},
-{"teamname": "Lobos", "league": "LIGA Bancomer MX", "rating": "68"},
-{"teamname": "F\u00fcrth", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "Colorado Rapids", "league": "MLS", "rating": "68"},
-{"teamname": "Hearts", "league": "Scottish Prem", "rating": "68"},
-{"teamname": "Am\u00e9rica de Cali", "league": "Liga Dimayor", "rating": "68"},
-{"teamname": "Austria Wien", "league": "\u00d6. Bundesliga", "rating": "68"},
-{"teamname": "Ulsan Hyundai", "league": "K-League 1", "rating": "68"},
-{"teamname": "Regensburg", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "Ipswich Town", "league": "EFL Championship", "rating": "68"},
-{"teamname": "Lecce", "league": "Calcio B", "rating": "68"},
-{"teamname": "Hebei CFFC", "league": "CSL", "rating": "68"},
-{"teamname": "Jagiellonia", "league": "Ekstraklasa", "rating": "68"},
-{"teamname": "SK Brann", "league": "Eliteserien", "rating": "68"},
-{"teamname": "1. FC Heidenheim", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "SK Sturm Graz", "league": "\u00d6. Bundesliga", "rating": "68"},
-{"teamname": "Once Caldas", "league": "Liga Dimayor", "rating": "68"},
-{"teamname": "Sunderland", "league": "EFL League One", "rating": "68"},
-{"teamname": "Patronato", "league": "SAF", "rating": "68"},
-{"teamname": "Cear\u00e1 SC", "league": "Liga do Brasil", "rating": "68"},
-{"teamname": "Aberdeen", "league": "Scottish Prem", "rating": "68"},
-{"teamname": "Erzgebirge Aue", "league": "Bundesliga 2", "rating": "68"},
-{"teamname": "Str\u00f8msgodset IF", "league": "Eliteserien", "rating": "66"},
-{"teamname": "AJ Auxerre", "league": "Domino\u2019s Ligue 2", "rating": "69"},
-{"teamname": "Toluca", "league": "LIGA Bancomer MX", "rating": "72"},
-{"teamname": "Sporting Gij\u00f3n", "league": "LaLiga 1 I 2 I 3", "rating": "72"},
-{"teamname": "Swansea City", "league": "EFL Championship", "rating": "72"},
-{"teamname": "Al Ahli", "league": "Saudi Professional League", "rating": "72"},
-{"teamname": "CD Vi\u00f1azur", "league": "Camp. Scotiabank", "rating": "72"},
-{"teamname": "Viktoria Plze\u0148", "league": "Overige", "rating": "72"},
-{"teamname": "LA Galaxy", "league": "MLS", "rating": "71"},
-{"teamname": "Toronto FC", "league": "MLS", "rating": "71"},
-{"teamname": "Deportivo Cali", "league": "Liga Dimayor", "rating": "71"},
-{"teamname": "Banfield", "league": "SAF", "rating": "71"},
-{"teamname": "Charlton Athl.", "league": "EFL League One", "rating": "66"},
-{"teamname": "Curic\u00f3 Unido", "league": "Camp. Scotiabank", "rating": "65"},
-{"teamname": "RCD Espanyol", "league": "LaLiga Santander", "rating": "77"},
-{"teamname": "Be\u015fikta\u015f", "league": "S\u00fcper Lig", "rating": "77"},
-{"teamname": "Burnley", "league": "Premier League", "rating": "77"},
-{"teamname": "Southampton", "league": "Premier League", "rating": "77"},
-{"teamname": "Werder Bremen", "league": "Bundesliga", "rating": "77"},
-{"teamname": "Atalanta", "league": "Serie A TIM", "rating": "76"},
-{"teamname": "PSV", "league": "Eredivisie", "rating": "76"},
-{"teamname": "Bournemouth", "league": "Premier League", "rating": "76"},
-{"teamname": "Levante UD", "league": "LaLiga Santander", "rating": "76"},
-{"teamname": "Girona CF", "league": "LaLiga Santander", "rating": "76"},
-{"teamname": "D. Alav\u00e9s", "league": "LaLiga Santander", "rating": "76"},
-{"teamname": "SC Braga", "league": "Liga NOS", "rating": "76"},
-{"teamname": "Brighton", "league": "Premier League", "rating": "76"},
-{"teamname": "Indep. Medell\u00edn", "league": "Liga Dimayor", "rating": "67"},
-{"teamname": "Aalborg BK", "league": "Superliga", "rating": "67"},
-{"teamname": "Gangwon FC", "league": "K-League 1", "rating": "67"},
-{"teamname": "Shanghai Shenhua", "league": "CSL", "rating": "67"},
-{"teamname": "Atl. Bucaramanga", "league": "Liga Dimayor", "rating": "67"},
-{"teamname": "Elche CF", "league": "LaLiga 1 I 2 I 3", "rating": "67"},
-{"teamname": "FC Tokyo", "league": "Meiji Yasuda J1", "rating": "67"},
-{"teamname": "AS Nancy", "league": "Domino\u2019s Ligue 2", "rating": "67"},
-{"teamname": "Everton de Vi\u00f1a", "league": "Camp. Scotiabank", "rating": "67"},
-{"teamname": "Melb. Victory", "league": "Hyundai A-League", "rating": "67"},
-{"teamname": "Fortuna Sittard", "league": "Eredivisie", "rating": "67"},
-{"teamname": "Hammarby IF", "league": "Allsvenskan", "rating": "67"},
-{"teamname": "Carpi", "league": "Calcio B", "rating": "67"},
-{"teamname": "Cerezo Osaka", "league": "Meiji Yasuda J1", "rating": "67"},
-{"teamname": "Extremadura UD", "league": "LaLiga 1 I 2 I 3", "rating": "67"},
-{"teamname": "Kilmarnock", "league": "Scottish Prem", "rating": "67"},
-{"teamname": "Uni\u00f3n Espa\u00f1ola", "league": "Camp. Scotiabank", "rating": "67"},
-{"teamname": "Melbourne City", "league": "Hyundai A-League", "rating": "67"},
-{"teamname": "Uni\u00f3n La Calera", "league": "Camp. Scotiabank", "rating": "67"},
-{"teamname": "NAC Breda", "league": "Eredivisie", "rating": "67"},
-{"teamname": "San Luis", "league": "Camp. Scotiabank", "rating": "67"},
-{"teamname": "CD O'Higgins", "league": "Camp. Scotiabank", "rating": "67"},
-{"teamname": "CA Rayo", "league": "LaLiga 1 I 2 I 3", "rating": "67"},
-{"teamname": "Ascoli", "league": "Calcio B", "rating": "67"},
-{"teamname": "Pohang Steelers", "league": "K-League 1", "rating": "67"},
-{"teamname": "Odense BK", "league": "Superliga", "rating": "67"},
-{"teamname": "Al Shabab", "league": "Saudi Professional League", "rating": "67"},
-{"teamname": "C\u00f3rdoba CF", "league": "LaLiga 1 I 2 I 3", "rating": "67"},
-{"teamname": "Cittadella", "league": "Calcio B", "rating": "67"},
-{"teamname": "VVV-Venlo", "league": "Eredivisie", "rating": "67"},
-{"teamname": "RCD Mallorca", "league": "LaLiga 1 I 2 I 3", "rating": "67"},
-{"teamname": "Jeju United", "league": "K-League 1", "rating": "67"},
-{"teamname": "Pogo\u0144 Szczecin", "league": "Ekstraklasa", "rating": "67"},
-{"teamname": "Padova", "league": "Calcio B", "rating": "67"},
-{"teamname": "SBV Excelsior", "league": "Eredivisie", "rating": "67"},
-{"teamname": "Livorno", "league": "Calcio B", "rating": "67"},
-{"teamname": "Hibernian", "league": "Scottish Prem", "rating": "67"},
-{"teamname": "Le Havre AC", "league": "Domino\u2019s Ligue 2", "rating": "67"},
-{"teamname": "La Spezia", "league": "Calcio B", "rating": "67"},
-{"teamname": "FC Seoul", "league": "K-League 1", "rating": "67"},
-{"teamname": "Djurg\u00e5rdens IF", "league": "Allsvenskan", "rating": "67"},
-{"teamname": "Grasshopper", "league": "RSL", "rating": "67"},
-{"teamname": "FC Z\u00fcrich", "league": "RSL", "rating": "67"},
-{"teamname": "Guangzhou R&F", "league": "CSL", "rating": "66"},
-{"teamname": "Guizhou Hengfeng", "league": "CSL", "rating": "66"},
-{"teamname": "Jiangsu Suning", "league": "CSL", "rating": "66"},
-{"teamname": "Ettifaq FC", "league": "Saudi Professional League", "rating": "66"},
-{"teamname": "Deportivo Pasto", "league": "Liga Dimayor", "rating": "66"},
-{"teamname": "Nagoya Grampus", "league": "Meiji Yasuda J1", "rating": "66"},
-{"teamname": "Guangzhou", "league": "CSL", "rating": "72"},
-{"teamname": "1. FC N\u00fcrnberg", "league": "Bundesliga", "rating": "72"},
-{"teamname": "UD Las Palmas", "league": "LaLiga 1 I 2 I 3", "rating": "72"},
-{"teamname": "Slavia Praha", "league": "Overige", "rating": "72"},
-{"teamname": "Botafogo", "league": "Liga do Brasil", "rating": "72"},
-{"teamname": "Royal Antwerp FC", "league": "Pro League", "rating": "72"},
-{"teamname": "Stade Reims", "league": "Ligue 1 Conforama", "rating": "72"},
-{"teamname": "Hurac\u00e1n", "league": "SAF", "rating": "72"},
-{"teamname": "FC Nantes", "league": "Ligue 1 Conforama", "rating": "75"},
-{"teamname": "1. FC K\u00f6ln", "league": "Bundesliga 2", "rating": "75"},
-{"teamname": "Cagliari", "league": "Serie A TIM", "rating": "75"},
-{"teamname": "Olympiacos CFP", "league": "Overige", "rating": "75"},
-{"teamname": "FC Utrecht", "league": "Eredivisie", "rating": "71"},
-{"teamname": "New York City FC", "league": "MLS", "rating": "71"},
-{"teamname": "Uni. de Chile", "league": "Camp. Scotiabank", "rating": "71"},
-{"teamname": "Benevento", "league": "Calcio B", "rating": "71"},
-{"teamname": "FC Kopenhagen", "league": "Superliga", "rating": "71"},
-{"teamname": "Wis\u0142a P\u0142ock", "league": "Ekstraklasa", "rating": "64"},
-{"teamname": "Dalian Yifang", "league": "CSL", "rating": "64"},
-{"teamname": "CD Numancia", "league": "LaLiga 1 I 2 I 3", "rating": "69"},
-{"teamname": "Br\u00f8ndby IF", "league": "Superliga", "rating": "69"},
-{"teamname": "Millwall", "league": "EFL Championship", "rating": "69"},
-{"teamname": "Hull City", "league": "EFL Championship", "rating": "69"},
-{"teamname": "Houston Dynamo", "league": "MLS", "rating": "69"},
-{"teamname": "Argentinos Jrs.", "league": "SAF", "rating": "68"},
-{"teamname": "KAS Eupen", "league": "Pro League", "rating": "68"},
-{"teamname": "FC Sion", "league": "RSL", "rating": "68"},
-{"teamname": "Gamba Osaka", "league": "Meiji Yasuda J1", "rating": "67"},
-{"teamname": "Vissel Kobe", "league": "Meiji Yasuda J1", "rating": "67"},
-{"teamname": "Sanf. Hiroshima", "league": "Meiji Yasuda J1", "rating": "67"},
-{"teamname": "Al Faisaly", "league": "Saudi Professional League", "rating": "66"},
-{"teamname": "Al Fayha", "league": "Saudi Professional League", "rating": "66"},
-{"teamname": "BK H\u00e4cken", "league": "Allsvenskan", "rating": "66"},
-{"teamname": "SV Wehen", "league": "3. Liga", "rating": "66"},
-{"teamname": "IF Elfsborg", "league": "Allsvenskan", "rating": "66"},
-{"teamname": "V\u00e5lerenga Fotball", "league": "Eliteserien", "rating": "66"},
-{"teamname": "Sydney FC", "league": "Hyundai A-League", "rating": "66"},
-{"teamname": "Perth Glory", "league": "Hyundai A-League", "rating": "66"},
-{"teamname": "Portsmouth", "league": "EFL League One", "rating": "66"},
-{"teamname": "Al. Petrolera", "league": "Liga Dimayor", "rating": "66"},
-{"teamname": "Peterborough Utd", "league": "EFL League One", "rating": "66"},
-{"teamname": "De Graafschap", "league": "Eredivisie", "rating": "66"},
-{"teamname": "LASK Linz", "league": "\u00d6. Bundesliga", "rating": "66"},
-{"teamname": "Waasl. Beveren", "league": "Pro League", "rating": "66"},
-{"teamname": "Karlsruher SC", "league": "3. Liga", "rating": "66"},
-{"teamname": "Cosenza", "league": "Calcio B", "rating": "66"},
-{"teamname": "FC Luzern", "league": "RSL", "rating": "66"},
-{"teamname": "FC St. Gallen", "league": "RSL", "rating": "66"},
-{"teamname": "Deportes Temuco", "league": "Camp. Scotiabank", "rating": "66"},
-{"teamname": "Jeonnam Dragons", "league": "K-League 1", "rating": "66"},
-{"teamname": "Brisbane Roar", "league": "Hyundai A-League", "rating": "66"},
-{"teamname": "Al Taawoun", "league": "Saudi Professional League", "rating": "66"},
-{"teamname": "SC Heerenveen", "league": "Eredivisie", "rating": "69"},
-{"teamname": "Deportes Tolima", "league": "Liga Dimayor", "rating": "69"},
-{"teamname": "SK Rapid Wien", "league": "\u00d6. Bundesliga", "rating": "69"},
-{"teamname": "Salerno", "league": "Calcio B", "rating": "69"},
-{"teamname": "Puebla", "league": "LIGA Bancomer MX", "rating": "69"},
-{"teamname": "Crotone", "league": "Calcio B", "rating": "69"},
-{"teamname": "Sandhausen", "league": "Bundesliga 2", "rating": "69"},
-{"teamname": "Albacete Bpie", "league": "LaLiga 1 I 2 I 3", "rating": "69"},
-{"teamname": "CD Tondela", "league": "Liga NOS", "rating": "69"},
-{"teamname": "Talleres", "league": "SAF", "rating": "69"},
-{"teamname": "Al Wehda", "league": "Saudi Professional League", "rating": "69"},
-{"teamname": "Philadelphia U.", "league": "MLS", "rating": "69"},
-{"teamname": "CD Lugo", "league": "LaLiga 1 I 2 I 3", "rating": "69"},
-{"teamname": "Sport. Lokeren", "league": "Pro League", "rating": "69"},
-{"teamname": "Duisburg", "league": "Bundesliga 2", "rating": "69"},
-{"teamname": "Santa Clara", "league": "Liga NOS", "rating": "69"},
-{"teamname": "ADO Den Haag", "league": "Eredivisie", "rating": "69"},
-{"teamname": "V\u00e9lez Sarsfield", "league": "SAF", "rating": "69"},
-{"teamname": "Os Belenenses", "league": "Liga NOS", "rating": "69"},
-{"teamname": "Blackburn Rovers", "league": "EFL Championship", "rating": "69"},
-{"teamname": "Dynamo Dresden", "league": "Bundesliga 2", "rating": "69"},
-{"teamname": "Bolton", "league": "EFL Championship", "rating": "69"},
-{"teamname": "Reading", "league": "EFL Championship", "rating": "69"},
-{"teamname": "Uni. Concepci\u00f3n", "league": "Camp. Scotiabank", "rating": "69"},
-{"teamname": "Cremona", "league": "Calcio B", "rating": "69"},
-{"teamname": "Audax Italiano", "league": "Camp. Scotiabank", "rating": "66"},
-{"teamname": "Changchun Yatai", "league": "CSL", "rating": "66"},
-{"teamname": "San Mart\u00edn", "league": "SAF", "rating": "66"},
-{"teamname": "Al Qadisiyah", "league": "Saudi Professional League", "rating": "66"},
-{"teamname": "Fleetwood Town", "league": "EFL League One", "rating": "66"},
-{"teamname": "Paris FC", "league": "Domino\u2019s Ligue 2", "rating": "66"},
-{"teamname": "Kaiserslautern", "league": "3. Liga", "rating": "66"},
-{"teamname": "FC Sochaux", "league": "Domino\u2019s Ligue 2", "rating": "66"},
-{"teamname": "Patriotas", "league": "Liga Dimayor", "rating": "66"},
-{"teamname": "Aarhus GF", "league": "Superliga", "rating": "66"},
-{"teamname": "Yokohama FM", "league": "Meiji Yasuda J1", "rating": "66"},
-{"teamname": "Al Raed", "league": "Saudi Professional League", "rating": "65"},
-{"teamname": "Cham. Niortais", "league": "Domino\u2019s Ligue 2", "rating": "65"},
-{"teamname": "Chongqing SWM", "league": "CSL", "rating": "65"},
-{"teamname": "Burton Albion", "league": "EFL League One", "rating": "65"},
-{"teamname": "\u015al\u0105sk Wroc\u0142aw", "league": "Ekstraklasa", "rating": "65"},
-{"teamname": "Unterhaching", "league": "3. Liga", "rating": "65"},
-{"teamname": "Incheon United", "league": "K-League 1", "rating": "65"},
-{"teamname": "FC Lugano", "league": "RSL", "rating": "65"},
-{"teamname": "Beijing Renhe", "league": "CSL", "rating": "65"},
-{"teamname": "VfL Osnabr\u00fcck", "league": "3. Liga", "rating": "65"},
-{"teamname": "Hobro IK", "league": "Superliga", "rating": "65"},
-{"teamname": "FC Emmen", "league": "Eredivisie", "rating": "65"},
-{"teamname": "WS Wanderers", "league": "Hyundai A-League", "rating": "65"},
-{"teamname": "J\u00fabilo Iwata", "league": "Meiji Yasuda J1", "rating": "65"},
-{"teamname": "Gyeongnam FC", "league": "K-League 1", "rating": "65"},
-{"teamname": "Hansa Rostock", "league": "3. Liga", "rating": "65"},
-{"teamname": "Braunschweig", "league": "3. Liga", "rating": "65"},
-{"teamname": "FC Nordsj\u00e6lland", "league": "Superliga", "rating": "65"},
-{"teamname": "VfR Aalen", "league": "3. Liga", "rating": "65"},
-{"teamname": "Al Batin", "league": "Saudi Professional League", "rating": "65"},
-{"teamname": "SCR Altach", "league": "\u00d6. Bundesliga", "rating": "65"},
-{"teamname": "Red Star FC", "league": "Domino\u2019s Ligue 2", "rating": "65"},
-{"teamname": "\u00d6stersunds FK", "league": "Allsvenskan", "rating": "65"},
-{"teamname": "Adelaide United", "league": "Hyundai A-League", "rating": "65"},
-{"teamname": "W\u00fcrzburg. Kickers", "league": "3. Liga", "rating": "65"},
-{"teamname": "Wolfsberger AC", "league": "\u00d6. Bundesliga", "rating": "65"},
-{"teamname": "Southend Utd", "league": "EFL League One", "rating": "65"},
-{"teamname": "Arka Gdynia", "league": "Ekstraklasa", "rating": "65"},
-{"teamname": "Doncaster Rovers", "league": "EFL League One", "rating": "65"},
-{"teamname": "Zag\u0142\u0119bie Lubin", "league": "Ekstraklasa", "rating": "65"},
-{"teamname": "US Orl\u00e9ans", "league": "Domino\u2019s Ligue 2", "rating": "65"},
-{"teamname": "Wycombe", "league": "EFL League One", "rating": "65"},
-{"teamname": "MK Dons", "league": "EFL League Two", "rating": "65"},
-{"teamname": "Walsall", "league": "EFL League One", "rating": "65"},
-{"teamname": "Sarpsborg 08 FF", "league": "Eliteserien", "rating": "65"},
-{"teamname": "Kalmar FF", "league": "Allsvenskan", "rating": "65"},
-{"teamname": "Scunthorpe Utd", "league": "EFL League One", "rating": "65"},
-{"teamname": "Cracovia", "league": "Ekstraklasa", "rating": "65"},
-{"teamname": "Plymouth Argyle", "league": "EFL League One", "rating": "65"},
-{"teamname": "Odds BK", "league": "Eliteserien", "rating": "65"},
-{"teamname": "Bradford City", "league": "EFL League One", "rating": "65"},
-{"teamname": "Clermont Foot", "league": "Domino\u2019s Ligue 2", "rating": "67"},
-{"teamname": "Rotherham Utd", "league": "EFL Championship", "rating": "67"},
-{"teamname": "Valenciennes FC", "league": "Domino\u2019s Ligue 2", "rating": "67"},
-{"teamname": "SM Tucum\u00e1n", "league": "SAF", "rating": "67"},
-{"teamname": "Magdeburg", "league": "Bundesliga 2", "rating": "67"},
-{"teamname": "La Equidad", "league": "Liga Dimayor", "rating": "66"},
-{"teamname": "Grenoble Foot", "league": "Domino\u2019s Ligue 2", "rating": "66"},
-{"teamname": "CD Huachipato", "league": "Camp. Scotiabank", "rating": "66"},
-{"teamname": "Shimizu S-Pulse", "league": "Meiji Yasuda J1", "rating": "66"},
-{"teamname": "St. Mirren", "league": "Scottish Prem", "rating": "63"},
-{"teamname": "Central Coast", "league": "Hyundai A-League", "rating": "64"},
-{"teamname": "SV Meppen", "league": "3. Liga", "rating": "64"},
-{"teamname": "GIF Sundsvall", "league": "Allsvenskan", "rating": "64"},
-{"teamname": "Vejle Boldklub", "league": "Superliga", "rating": "64"},
-{"teamname": "Kristiansund", "league": "Eliteserien", "rating": "64"},
-{"teamname": "Carl Zeiss Jena", "league": "3. Liga", "rating": "64"},
-{"teamname": "Bury", "league": "EFL League Two", "rating": "64"},
-{"teamname": "S\u00f8nderjyskE", "league": "Superliga", "rating": "64"},
-{"teamname": "Exeter City", "league": "EFL League Two", "rating": "64"},
-{"teamname": "Al Hazem", "league": "Saudi Professional League", "rating": "64"},
-{"teamname": "FSV Zwickau", "league": "3. Liga", "rating": "64"},
-{"teamname": "Randers FC", "league": "Superliga", "rating": "64"},
-{"teamname": "Troms\u00f8 IL", "league": "Eliteserien", "rating": "64"},
-{"teamname": "Lincoln City", "league": "EFL League Two", "rating": "64"},
-{"teamname": "Rochdale", "league": "EFL League One", "rating": "64"},
-{"teamname": "Notts County", "league": "EFL League Two", "rating": "64"},
-{"teamname": "SV Mattersburg", "league": "\u00d6. Bundesliga", "rating": "64"},
-{"teamname": "Accrington", "league": "EFL League One", "rating": "64"},
-{"teamname": "Atl\u00e9tico Huila", "league": "Liga Dimayor", "rating": "64"},
-{"teamname": "SKN St. P\u00f6lten", "league": "\u00d6. Bundesliga", "rating": "64"},
-{"teamname": "Colchester Utd", "league": "EFL League Two", "rating": "64"},
-{"teamname": "FK Haugesund", "league": "Eliteserien", "rating": "64"},
-{"teamname": "AS B\u00e9ziers", "league": "Domino\u2019s Ligue 2", "rating": "64"},
-{"teamname": "Henan Jianye", "league": "CSL", "rating": "64"},
-{"teamname": "Dundalk", "league": "SSE Airtricity Lge", "rating": "64"},
-{"teamname": "Stab\u00e6k Fotball", "league": "Eliteserien", "rating": "64"},
-{"teamname": "Tianjin Quanjian", "league": "CSL", "rating": "64"},
-{"teamname": "FC Thun", "league": "RSL", "rating": "64"},
-{"teamname": "Korona Kielce", "league": "Ekstraklasa", "rating": "64"},
-{"teamname": "G\u00f3rnik Zabrze", "league": "Ekstraklasa", "rating": "64"},
-{"teamname": "Innsbruck", "league": "\u00d6. Bundesliga", "rating": "64"},
-{"teamname": "H.C. Sapporo", "league": "Meiji Yasuda J1", "rating": "64"},
-{"teamname": "Well. Phoenix", "league": "Hyundai A-League", "rating": "64"},
-{"teamname": "IK Sirius", "league": "Allsvenskan", "rating": "64"},
-{"teamname": "Mied\u017a Legnica", "league": "Ekstraklasa", "rating": "64"},
-{"teamname": "Dundee FC", "league": "Scottish Prem", "rating": "64"},
-{"teamname": "LB Ch\u00e2teauroux", "league": "Domino\u2019s Ligue 2", "rating": "64"},
-{"teamname": "Hallescher FC", "league": "3. Liga", "rating": "64"},
-{"teamname": "Coventry City", "league": "EFL League One", "rating": "64"},
-{"teamname": "Al Fateh", "league": "Saudi Professional League", "rating": "64"},
-{"teamname": "Fortuna K\u00f6ln", "league": "3. Liga", "rating": "64"},
-{"teamname": "Preu\u00dfen M\u00fcnster", "league": "3. Liga", "rating": "64"},
-{"teamname": "Lillestr\u00f8m SK", "league": "Eliteserien", "rating": "64"},
-{"teamname": "Blackpool", "league": "EFL League One", "rating": "64"},
-{"teamname": "1860 M\u00fcnchen", "league": "3. Liga", "rating": "64"},
-{"teamname": "Mansfield Town", "league": "EFL League Two", "rating": "64"},
-{"teamname": "Sportfreunde Lotte", "league": "3. Liga", "rating": "64"},
-{"teamname": "Admira Wacker", "league": "\u00d6. Bundesliga", "rating": "64"},
-{"teamname": "Vegalta Sendai", "league": "Meiji Yasuda J1", "rating": "64"},
-{"teamname": "Wis\u0142a Krak\u00f3w", "league": "Ekstraklasa", "rating": "66"},
-{"teamname": "Depor. Iquique", "league": "Camp. Scotiabank", "rating": "66"},
-{"teamname": "KFC Uerdingen", "league": "3. Liga", "rating": "66"},
-{"teamname": "Barnsley", "league": "EFL League One", "rating": "66"},
-{"teamname": "CD Antofagasta", "league": "Camp. Scotiabank", "rating": "66"},
-{"teamname": "Piast Gliwice", "league": "Ekstraklasa", "rating": "66"},
-{"teamname": "Oxford Utd", "league": "EFL League One", "rating": "66"},
-{"teamname": "Jeonbuk Hyundai", "league": "K-League 1", "rating": "69"},
-{"teamname": "Gimnasia", "league": "SAF", "rating": "69"},
-{"teamname": "Shandong Luneng", "league": "CSL", "rating": "68"},
-{"teamname": "Belgrano", "league": "SAF", "rating": "68"},
-{"teamname": "Luton Town", "league": "EFL League One", "rating": "65"},
-{"teamname": "St. Johnstone", "league": "Scottish Prem", "rating": "65"},
-{"teamname": "Newcastle Jets", "league": "Hyundai A-League", "rating": "65"},
-{"teamname": "Jaguares", "league": "Liga Dimayor", "rating": "65"},
-{"teamname": "Motherwell", "league": "Scottish Prem", "rating": "65"},
-{"teamname": "GFC Ajaccio", "league": "Domino\u2019s Ligue 2", "rating": "65"},
-{"teamname": "Shrewsbury Town", "league": "EFL League One", "rating": "64"},
-{"teamname": "Envigado", "league": "Liga Dimayor", "rating": "64"},
-{"teamname": "Neuch\u00e2tel Xamax", "league": "RSL", "rating": "63"},
-{"teamname": "Boyac\u00e1 Chic\u00f3", "league": "Liga Dimayor", "rating": "63"},
-{"teamname": "Ohod Club", "league": "Saudi Professional League", "rating": "63"},
-{"teamname": "S. Gro\u00dfaspach", "league": "3. Liga", "rating": "63"},
-{"teamname": "Energie Cottbus", "league": "3. Liga", "rating": "63"},
-{"teamname": "Tianjin TEDA", "league": "CSL", "rating": "63"},
-{"teamname": "AFC Wimbledon", "league": "EFL League One", "rating": "63"},
-{"teamname": "FK Bod\u00f8/Glimt", "league": "Eliteserien", "rating": "63"},
-{"teamname": "Forest Green", "league": "EFL League Two", "rating": "63"},
-{"teamname": "Sandefjord", "league": "Eliteserien", "rating": "63"},
-{"teamname": "Leones", "league": "Liga Dimayor", "rating": "63"},
-{"teamname": "V-Varen Nagasaki", "league": "Meiji Yasuda J1", "rating": "63"},
-{"teamname": "Gillingham", "league": "EFL League One", "rating": "63"},
-{"teamname": "IFK G\u00f6teborg", "league": "Allsvenskan", "rating": "63"},
-{"teamname": "Z. Sosnowiec", "league": "Ekstraklasa", "rating": "63"},
-{"teamname": "Northampton Town", "league": "EFL League Two", "rating": "63"},
-{"teamname": "HJK Helsinki", "league": "Overige", "rating": "63"},
-{"teamname": "Vendsyssel FF", "league": "Superliga", "rating": "63"},
-{"teamname": "IK Start", "league": "Eliteserien", "rating": "63"},
-{"teamname": "Livingston", "league": "Scottish Prem", "rating": "63"},
-{"teamname": "Bristol Rovers", "league": "EFL League One", "rating": "63"},
-{"teamname": "Esbjerg fB", "league": "Superliga", "rating": "63"},
-{"teamname": "Ranheim Fotball", "league": "Eliteserien", "rating": "63"},
-{"teamname": "AC Horsens", "league": "Superliga", "rating": "63"},
-{"teamname": "Sangju Sangmu", "league": "K-League 1", "rating": "63"},
-{"teamname": "TSV Hartberg", "league": "\u00d6. Bundesliga", "rating": "62"},
-{"teamname": "Cheltenham Town", "league": "EFL League Two", "rating": "62"},
-{"teamname": "Daegu FC", "league": "K-League 1", "rating": "64"},
-{"teamname": "Shonan Bellmare", "league": "Meiji Yasuda J1", "rating": "64"},
-{"teamname": "\u00d6rebro SK", "league": "Allsvenskan", "rating": "64"},
-{"teamname": "Yeovil Town", "league": "EFL League Two", "rating": "62"},
-{"teamname": "Port Vale", "league": "EFL League Two", "rating": "62"},
-{"teamname": "Crawley Town", "league": "EFL League Two", "rating": "62"},
-{"teamname": "Oldham Athletic", "league": "EFL League Two", "rating": "62"},
-{"teamname": "Trelleborgs FF", "league": "Allsvenskan", "rating": "62"},
-{"teamname": "Swindon Town", "league": "EFL League Two", "rating": "62"}
+  {
+    "teamname": "Liverpool",
+    "league": "Premier League",
+    "att": 89,
+    "mid": 84,
+    "def": 86,
+    "rating": 85
+  },
+  {
+    "teamname": "Manchester City",
+    "league": "Premier League",
+    "att": 86,
+    "mid": 86,
+    "def": 83,
+    "rating": 85
+  },
+  {
+    "teamname": "Real Madrid",
+    "league": "LaLiga Santander",
+    "att": 84,
+    "mid": 86,
+    "def": 85,
+    "rating": 85
+  },
+  {
+    "teamname": "FC Bayern München",
+    "league": "Bundesliga",
+    "att": 91,
+    "mid": 85,
+    "def": 82,
+    "rating": 84
+  },
+  {
+    "teamname": "FC Barcelona",
+    "league": "LaLiga Santander",
+    "att": 84,
+    "mid": 85,
+    "def": 83,
+    "rating": 84
+  },
+  {
+    "teamname": "Juventus",
+    "league": "Serie A TIM",
+    "att": 87,
+    "mid": 80,
+    "def": 84,
+    "rating": 83
+  },
+  {
+    "teamname": "Paris Saint-Germain",
+    "league": "Ligue 1 Uber Eats",
+    "att": 86,
+    "mid": 82,
+    "def": 79,
+    "rating": 83
+  },
+  {
+    "teamname": "Atlético de Madrid",
+    "league": "LaLiga Santander",
+    "att": 84,
+    "mid": 82,
+    "def": 82,
+    "rating": 83
+  },
+  {
+    "teamname": "Tottenham Hotspur",
+    "league": "Premier League",
+    "att": 85,
+    "mid": 82,
+    "def": 81,
+    "rating": 82
+  },
+  {
+    "teamname": "Chelsea",
+    "league": "Premier League",
+    "att": 85,
+    "mid": 82,
+    "def": 81,
+    "rating": 82
+  },
+  {
+    "teamname": "Borussia Dortmund",
+    "league": "Bundesliga",
+    "att": 85,
+    "mid": 81,
+    "def": 81,
+    "rating": 82
+  },
+  {
+    "teamname": "Manchester United",
+    "league": "Premier League",
+    "att": 84,
+    "mid": 82,
+    "def": 82,
+    "rating": 82
+  },
+  {
+    "teamname": "Inter",
+    "league": "Serie A TIM",
+    "att": 84,
+    "mid": 82,
+    "def": 81,
+    "rating": 82
+  },
+  {
+    "teamname": "Arsenal",
+    "league": "Premier League",
+    "att": 84,
+    "mid": 81,
+    "def": 77,
+    "rating": 81
+  },
+  {
+    "teamname": "Napoli",
+    "league": "Serie A TIM",
+    "att": 81,
+    "mid": 82,
+    "def": 80,
+    "rating": 81
+  },
+  {
+    "teamname": "Lazio",
+    "league": "Serie A TIM",
+    "att": 82,
+    "mid": 81,
+    "def": 78,
+    "rating": 80
+  },
+  {
+    "teamname": "Villarreal CF",
+    "league": "LaLiga Santander",
+    "att": 82,
+    "mid": 79,
+    "def": 79,
+    "rating": 80
+  },
+  {
+    "teamname": "Sevilla FC",
+    "league": "LaLiga Santander",
+    "att": 80,
+    "mid": 80,
+    "def": 81,
+    "rating": 80
+  },
+  {
+    "teamname": "RB Leipzig",
+    "league": "Bundesliga",
+    "att": 77,
+    "mid": 80,
+    "def": 80,
+    "rating": 80
+  },
+  {
+    "teamname": "Atalanta",
+    "league": "Serie A TIM",
+    "att": 83,
+    "mid": 79,
+    "def": 77,
+    "rating": 79
+  },
+  {
+    "teamname": "Real Sociedad",
+    "league": "LaLiga Santander",
+    "att": 81,
+    "mid": 81,
+    "def": 76,
+    "rating": 79
+  },
+  {
+    "teamname": "Leicester City",
+    "league": "Premier League",
+    "att": 81,
+    "mid": 79,
+    "def": 79,
+    "rating": 79
+  },
+  {
+    "teamname": "Everton",
+    "league": "Premier League",
+    "att": 80,
+    "mid": 78,
+    "def": 79,
+    "rating": 79
+  },
+  {
+    "teamname": "Athletic Club",
+    "league": "LaLiga Santander",
+    "att": 78,
+    "mid": 79,
+    "def": 80,
+    "rating": 79
+  },
+  {
+    "teamname": "Borussia Mönchengladbach",
+    "league": "Bundesliga",
+    "att": 78,
+    "mid": 79,
+    "def": 79,
+    "rating": 79
+  },
+  {
+    "teamname": "Bayer 04 Leverkusen",
+    "league": "Bundesliga",
+    "att": 78,
+    "mid": 78,
+    "def": 79,
+    "rating": 79
+  },
+  {
+    "teamname": "SL Benfica",
+    "league": "Liga NOS",
+    "att": 74,
+    "mid": 80,
+    "def": 80,
+    "rating": 79
+  },
+  {
+    "teamname": "Milan",
+    "league": "Serie A TIM",
+    "att": 83,
+    "mid": 77,
+    "def": 78,
+    "rating": 78
+  },
+  {
+    "teamname": "Roma",
+    "league": "Serie A TIM",
+    "att": 80,
+    "mid": 77,
+    "def": 76,
+    "rating": 78
+  },
+  {
+    "teamname": "West Ham United",
+    "league": "Premier League",
+    "att": 79,
+    "mid": 78,
+    "def": 77,
+    "rating": 78
+  },
+  {
+    "teamname": "Wolverhampton Wanderers",
+    "league": "Premier League",
+    "att": 78,
+    "mid": 82,
+    "def": 78,
+    "rating": 78
+  },
+  {
+    "teamname": "Olympique de Marseille",
+    "league": "Ligue 1 Uber Eats",
+    "att": 78,
+    "mid": 78,
+    "def": 77,
+    "rating": 78
+  },
+  {
+    "teamname": "FC Porto",
+    "league": "Liga NOS",
+    "att": 78,
+    "mid": 78,
+    "def": 74,
+    "rating": 78
+  },
+  {
+    "teamname": "Valencia CF",
+    "league": "LaLiga Santander",
+    "att": 78,
+    "mid": 77,
+    "def": 78,
+    "rating": 78
+  },
+  {
+    "teamname": "Ajax",
+    "league": "Eredivisie",
+    "att": 77,
+    "mid": 77,
+    "def": 78,
+    "rating": 78
+  },
+  {
+    "teamname": "Real Betis Balompié",
+    "league": "LaLiga Santander",
+    "att": 76,
+    "mid": 79,
+    "def": 78,
+    "rating": 78
+  },
+  {
+    "teamname": "Olympique Lyonnais",
+    "league": "Ligue 1 Uber Eats",
+    "att": 81,
+    "mid": 77,
+    "def": 76,
+    "rating": 77
+  },
+  {
+    "teamname": "AS Monaco",
+    "league": "Ligue 1 Uber Eats",
+    "att": 80,
+    "mid": 75,
+    "def": 75,
+    "rating": 77
+  },
+  {
+    "teamname": "Crystal Palace",
+    "league": "Premier League",
+    "att": 79,
+    "mid": 76,
+    "def": 74,
+    "rating": 77
+  },
+  {
+    "teamname": "Eintracht Frankfurt",
+    "league": "Bundesliga",
+    "att": 78,
+    "mid": 76,
+    "def": 77,
+    "rating": 77
+  },
+  {
+    "teamname": "VfL Wolfsburg",
+    "league": "Bundesliga",
+    "att": 77,
+    "mid": 77,
+    "def": 77,
+    "rating": 77
+  },
+  {
+    "teamname": "LOSC Lille",
+    "league": "Ligue 1 Uber Eats",
+    "att": 77,
+    "mid": 77,
+    "def": 75,
+    "rating": 77
+  },
+  {
+    "teamname": "TSG Hoffenheim",
+    "league": "Bundesliga",
+    "att": 77,
+    "mid": 75,
+    "def": 76,
+    "rating": 77
+  },
+  {
+    "teamname": "Getafe CF",
+    "league": "LaLiga Santander",
+    "att": 76,
+    "mid": 77,
+    "def": 78,
+    "rating": 77
+  },
+  {
+    "teamname": "Newcastle United",
+    "league": "Premier League",
+    "att": 76,
+    "mid": 77,
+    "def": 76,
+    "rating": 77
+  },
+  {
+    "teamname": "Sporting CP",
+    "league": "Liga NOS",
+    "att": 74,
+    "mid": 76,
+    "def": 76,
+    "rating": 77
+  },
+  {
+    "teamname": "PSV",
+    "league": "Eredivisie",
+    "att": 79,
+    "mid": 75,
+    "def": 74,
+    "rating": 76
+  },
+  {
+    "teamname": "Fiorentina",
+    "league": "Serie A TIM",
+    "att": 78,
+    "mid": 77,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Levante UD",
+    "league": "LaLiga Santander",
+    "att": 78,
+    "mid": 77,
+    "def": 75,
+    "rating": 76
+  },
+  {
+    "teamname": "Torino",
+    "league": "Serie A TIM",
+    "att": 78,
+    "mid": 75,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "RC Celta",
+    "league": "LaLiga Santander",
+    "att": 78,
+    "mid": 74,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "SC Braga",
+    "league": "Liga NOS",
+    "att": 78,
+    "mid": 73,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Granada CF",
+    "league": "LaLiga Santander",
+    "att": 77,
+    "mid": 76,
+    "def": 77,
+    "rating": 76
+  },
+  {
+    "teamname": "Burnley",
+    "league": "Premier League",
+    "att": 77,
+    "mid": 76,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Southampton",
+    "league": "Premier League",
+    "att": 77,
+    "mid": 76,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Hertha Berlin",
+    "league": "Bundesliga",
+    "att": 77,
+    "mid": 76,
+    "def": 75,
+    "rating": 76
+  },
+  {
+    "teamname": "River Plate",
+    "league": "Libertadores",
+    "att": 77,
+    "mid": 75,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Flamengo",
+    "league": "Libertadores",
+    "att": 77,
+    "mid": 75,
+    "def": 75,
+    "rating": 76
+  },
+  {
+    "teamname": "R. Valladolid CF",
+    "league": "LaLiga Santander",
+    "att": 77,
+    "mid": 75,
+    "def": 74,
+    "rating": 76
+  },
+  {
+    "teamname": "D. Alavés",
+    "league": "LaLiga Santander",
+    "att": 77,
+    "mid": 74,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Galatasaray SK",
+    "league": "Süper Lig",
+    "att": 77,
+    "mid": 74,
+    "def": 75,
+    "rating": 76
+  },
+  {
+    "teamname": "Brighton & Hove Albion",
+    "league": "Premier League",
+    "att": 77,
+    "mid": 74,
+    "def": 74,
+    "rating": 76
+  },
+  {
+    "teamname": "CA Osasuna",
+    "league": "LaLiga Santander",
+    "att": 76,
+    "mid": 76,
+    "def": 75,
+    "rating": 76
+  },
+  {
+    "teamname": "SD Eibar",
+    "league": "LaLiga Santander",
+    "att": 76,
+    "mid": 76,
+    "def": 74,
+    "rating": 76
+  },
+  {
+    "teamname": "Aston Villa",
+    "league": "Premier League",
+    "att": 76,
+    "mid": 76,
+    "def": 74,
+    "rating": 76
+  },
+  {
+    "teamname": "FC Schalke 04",
+    "league": "Bundesliga",
+    "att": 75,
+    "mid": 77,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "İstanbul Başakşehir FK",
+    "league": "Süper Lig",
+    "att": 75,
+    "mid": 76,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Boca Juniors",
+    "league": "Libertadores",
+    "att": 75,
+    "mid": 74,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Stade Rennais FC",
+    "league": "Ligue 1 Uber Eats",
+    "att": 74,
+    "mid": 77,
+    "def": 76,
+    "rating": 76
+  },
+  {
+    "teamname": "Shakhtar Donetsk",
+    "league": "Rest of World",
+    "att": 79,
+    "mid": 76,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "Olympiacos CFP",
+    "league": "Rest of World",
+    "att": 78,
+    "mid": 75,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "Sassuolo",
+    "league": "Serie A TIM",
+    "att": 77,
+    "mid": 76,
+    "def": 72,
+    "rating": 75
+  },
+  {
+    "teamname": "Fulham",
+    "league": "Premier League",
+    "att": 77,
+    "mid": 74,
+    "def": 73,
+    "rating": 75
+  },
+  {
+    "teamname": "RCD Espanyol",
+    "league": "LaLiga SmartBank",
+    "att": 76,
+    "mid": 76,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "Feyenoord",
+    "league": "Eredivisie",
+    "att": 76,
+    "mid": 74,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "Tigres de la UANL",
+    "league": "LIGA BBVA MX",
+    "att": 75,
+    "mid": 75,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "OGC Nice",
+    "league": "Ligue 1 Uber Eats",
+    "att": 75,
+    "mid": 74,
+    "def": 75,
+    "rating": 75
+  },
+  {
+    "teamname": "Sheffield United",
+    "league": "Premier League",
+    "att": 74,
+    "mid": 77,
+    "def": 75,
+    "rating": 75
+  },
+  {
+    "teamname": "Palmeiras",
+    "league": "Libertadores",
+    "att": 74,
+    "mid": 77,
+    "def": 75,
+    "rating": 75
+  },
+  {
+    "teamname": "Beşiktaş JK",
+    "league": "Süper Lig",
+    "att": 74,
+    "mid": 74,
+    "def": 73,
+    "rating": 75
+  },
+  {
+    "teamname": "Fenerbahçe SK",
+    "league": "Süper Lig",
+    "att": 74,
+    "mid": 73,
+    "def": 77,
+    "rating": 75
+  },
+  {
+    "teamname": "Watford",
+    "league": "EFL Championship",
+    "att": 74,
+    "mid": 73,
+    "def": 71,
+    "rating": 75
+  },
+  {
+    "teamname": "Club Brugge KV",
+    "league": "1A Pro League",
+    "att": 73,
+    "mid": 76,
+    "def": 75,
+    "rating": 75
+  },
+  {
+    "teamname": "Cagliari",
+    "league": "Serie A TIM",
+    "att": 73,
+    "mid": 74,
+    "def": 74,
+    "rating": 75
+  },
+  {
+    "teamname": "Racing Club",
+    "league": "LPF",
+    "att": 71,
+    "mid": 76,
+    "def": 75,
+    "rating": 75
+  },
+  {
+    "teamname": "Montpellier Hérault SC",
+    "league": "Ligue 1 Uber Eats",
+    "att": 77,
+    "mid": 75,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Leeds United",
+    "league": "Premier League",
+    "att": 77,
+    "mid": 75,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Sampdoria",
+    "league": "Serie A TIM",
+    "att": 77,
+    "mid": 74,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "FC Augsburg",
+    "league": "Bundesliga",
+    "att": 76,
+    "mid": 74,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Bologna",
+    "league": "Serie A TIM",
+    "att": 75,
+    "mid": 75,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Parma",
+    "league": "Serie A TIM",
+    "att": 75,
+    "mid": 74,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "1. FC Köln",
+    "league": "Bundesliga",
+    "att": 75,
+    "mid": 74,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "1. FSV Mainz 05",
+    "league": "Bundesliga",
+    "att": 75,
+    "mid": 73,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Lokomotiv Moskva",
+    "league": "Rest of World",
+    "att": 75,
+    "mid": 73,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Grêmio",
+    "league": "Liga do Brasil",
+    "att": 75,
+    "mid": 72,
+    "def": 75,
+    "rating": 74
+  },
+  {
+    "teamname": "Udinese",
+    "league": "Serie A TIM",
+    "att": 74,
+    "mid": 75,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "Atlético Mineiro",
+    "league": "Liga do Brasil",
+    "att": 74,
+    "mid": 74,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "RC Strasbourg Alsace",
+    "league": "Ligue 1 Uber Eats",
+    "att": 74,
+    "mid": 74,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Spartak Moscow",
+    "league": "Rest of World",
+    "att": 74,
+    "mid": 74,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "Rayados de Monterrey",
+    "league": "LIGA BBVA MX",
+    "att": 74,
+    "mid": 74,
+    "def": 71,
+    "rating": 74
+  },
+  {
+    "teamname": "São Paulo",
+    "league": "Libertadores",
+    "att": 74,
+    "mid": 73,
+    "def": 76,
+    "rating": 74
+  },
+  {
+    "teamname": "PFC CSKA Moscow",
+    "league": "Rest of World",
+    "att": 74,
+    "mid": 70,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "SV Werder Bremen",
+    "league": "Bundesliga",
+    "att": 73,
+    "mid": 75,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "AFC Bournemouth",
+    "league": "EFL Championship",
+    "att": 73,
+    "mid": 75,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Celtic",
+    "league": "Scottish Prem",
+    "att": 73,
+    "mid": 75,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "FC Girondins de Bordeaux",
+    "league": "Ligue 1 Uber Eats",
+    "att": 73,
+    "mid": 74,
+    "def": 75,
+    "rating": 74
+  },
+  {
+    "teamname": "Sport-Club Freiburg",
+    "league": "Bundesliga",
+    "att": 73,
+    "mid": 74,
+    "def": 75,
+    "rating": 74
+  },
+  {
+    "teamname": "Angers SCO",
+    "league": "Ligue 1 Uber Eats",
+    "att": 73,
+    "mid": 74,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Genoa",
+    "league": "Serie A TIM",
+    "att": 72,
+    "mid": 74,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "SK Slavia Praha",
+    "league": "Rest of World",
+    "att": 72,
+    "mid": 73,
+    "def": 73,
+    "rating": 74
+  },
+  {
+    "teamname": "Internacional",
+    "league": "Liga do Brasil",
+    "att": 71,
+    "mid": 74,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Dynamo Kyiv",
+    "league": "Rest of World",
+    "att": 70,
+    "mid": 74,
+    "def": 72,
+    "rating": 74
+  },
+  {
+    "teamname": "FC Nantes",
+    "league": "Ligue 1 Uber Eats",
+    "att": 66,
+    "mid": 73,
+    "def": 74,
+    "rating": 74
+  },
+  {
+    "teamname": "Norwich City",
+    "league": "EFL Championship",
+    "att": 76,
+    "mid": 72,
+    "def": 72,
+    "rating": 73
+  },
+  {
+    "teamname": "AS Saint-Étienne",
+    "league": "Ligue 1 Uber Eats",
+    "att": 76,
+    "mid": 71,
+    "def": 72,
+    "rating": 73
+  },
+  {
+    "teamname": "Hellas Verona",
+    "league": "Serie A TIM",
+    "att": 75,
+    "mid": 74,
+    "def": 69,
+    "rating": 73
+  },
+  {
+    "teamname": "KAA Gent",
+    "league": "1A Pro League",
+    "att": 74,
+    "mid": 74,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "Club América",
+    "league": "LIGA BBVA MX",
+    "att": 74,
+    "mid": 73,
+    "def": 69,
+    "rating": 73
+  },
+  {
+    "teamname": "Santos",
+    "league": "Liga do Brasil",
+    "att": 74,
+    "mid": 72,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "FC Red Bull Salzburg",
+    "league": "Ö. Bundesliga",
+    "att": 73,
+    "mid": 73,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "1. FC Union Berlin",
+    "league": "Bundesliga",
+    "att": 73,
+    "mid": 72,
+    "def": 72,
+    "rating": 73
+  },
+  {
+    "teamname": "KRC Genk",
+    "league": "1A Pro League",
+    "att": 73,
+    "mid": 70,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "AZ",
+    "league": "Eredivisie",
+    "att": 72,
+    "mid": 74,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "SD Huesca",
+    "league": "LaLiga Santander",
+    "att": 72,
+    "mid": 73,
+    "def": 74,
+    "rating": 73
+  },
+  {
+    "teamname": "San Lorenzo de Almagro",
+    "league": "LPF",
+    "att": 72,
+    "mid": 73,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "West Bromwich Albion",
+    "league": "Premier League",
+    "att": 72,
+    "mid": 73,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "Viktoria Plzeň",
+    "league": "Rest of World",
+    "att": 72,
+    "mid": 72,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "CD Leganés",
+    "league": "LaLiga SmartBank",
+    "att": 72,
+    "mid": 72,
+    "def": 73,
+    "rating": 73
+  },
+  {
+    "teamname": "Cruz Azul",
+    "league": "LIGA BBVA MX",
+    "att": 71,
+    "mid": 72,
+    "def": 72,
+    "rating": 73
+  },
+  {
+    "teamname": "PAOK",
+    "league": "Rest of World",
+    "att": 70,
+    "mid": 73,
+    "def": 71,
+    "rating": 73
+  },
+  {
+    "teamname": "Stade de Reims",
+    "league": "Ligue 1 Uber Eats",
+    "att": 70,
+    "mid": 72,
+    "def": 74,
+    "rating": 73
+  },
+  {
+    "teamname": "Elche CF",
+    "league": "LaLiga Santander",
+    "att": 70,
+    "mid": 72,
+    "def": 71,
+    "rating": 73
+  },
+  {
+    "teamname": "Al Hilal",
+    "league": "MBS Pro League",
+    "att": 76,
+    "mid": 73,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Royal Antwerp FC",
+    "league": "1A Pro League",
+    "att": 75,
+    "mid": 71,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "AEK Athens",
+    "league": "Rest of World",
+    "att": 74,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Dinamo Zagreb",
+    "league": "Rest of World",
+    "att": 74,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Vélez Sarsfield",
+    "league": "LPF",
+    "att": 74,
+    "mid": 71,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "FC Basel 1893",
+    "league": "RSL",
+    "att": 74,
+    "mid": 70,
+    "def": 73,
+    "rating": 72
+  },
+  {
+    "teamname": "Cádiz CF",
+    "league": "LaLiga Santander",
+    "att": 73,
+    "mid": 73,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "VfB Stuttgart",
+    "league": "Bundesliga",
+    "att": 73,
+    "mid": 72,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Universidad Católica",
+    "league": "Libertadores",
+    "att": 73,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Rio Ave FC",
+    "league": "Liga NOS",
+    "att": 73,
+    "mid": 71,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Trabzonspor",
+    "league": "Süper Lig",
+    "att": 73,
+    "mid": 71,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "RCD Mallorca",
+    "league": "LaLiga SmartBank",
+    "att": 72,
+    "mid": 74,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "FC København",
+    "league": "3F Superliga",
+    "att": 72,
+    "mid": 73,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Benevento",
+    "league": "Serie A TIM",
+    "att": 72,
+    "mid": 72,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Standard de Liège",
+    "league": "1A Pro League",
+    "att": 72,
+    "mid": 72,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Sparta Praha",
+    "league": "Rest of World",
+    "att": 72,
+    "mid": 72,
+    "def": 70,
+    "rating": 72
+  },
+  {
+    "teamname": "RC Lens",
+    "league": "Ligue 1 Uber Eats",
+    "att": 72,
+    "mid": 72,
+    "def": 70,
+    "rating": 72
+  },
+  {
+    "teamname": "Brentford",
+    "league": "EFL Championship",
+    "att": 72,
+    "mid": 71,
+    "def": 73,
+    "rating": 72
+  },
+  {
+    "teamname": "Rangers FC",
+    "league": "Scottish Prem",
+    "att": 72,
+    "mid": 71,
+    "def": 73,
+    "rating": 72
+  },
+  {
+    "teamname": "DSC Arminia Bielefeld",
+    "league": "Bundesliga",
+    "att": 72,
+    "mid": 71,
+    "def": 70,
+    "rating": 72
+  },
+  {
+    "teamname": "Hamburger SV",
+    "league": "Bundesliga 2",
+    "att": 72,
+    "mid": 70,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Demir Grup Sivasspor",
+    "league": "Süper Lig",
+    "att": 71,
+    "mid": 73,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "FC Metz",
+    "league": "Ligue 1 Uber Eats",
+    "att": 71,
+    "mid": 72,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "BSC Young Boys",
+    "league": "RSL",
+    "att": 71,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Club Nacional de Football",
+    "league": "Libertadores",
+    "att": 71,
+    "mid": 72,
+    "def": 66,
+    "rating": 72
+  },
+  {
+    "teamname": "Botafogo",
+    "league": "Liga do Brasil",
+    "att": 71,
+    "mid": 71,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Nottingham Forest",
+    "league": "EFL Championship",
+    "att": 71,
+    "mid": 71,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Stade Brestois 29",
+    "league": "Ligue 1 Uber Eats",
+    "att": 71,
+    "mid": 68,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Fluminense",
+    "league": "Liga do Brasil",
+    "att": 70,
+    "mid": 73,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Coritiba",
+    "league": "Liga do Brasil",
+    "att": 70,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Club Olimpia",
+    "league": "Libertadores",
+    "att": 70,
+    "mid": 71,
+    "def": 70,
+    "rating": 72
+  },
+  {
+    "teamname": "Club León",
+    "league": "LIGA BBVA MX",
+    "att": 69,
+    "mid": 73,
+    "def": 70,
+    "rating": 72
+  },
+  {
+    "teamname": "RSC Anderlecht",
+    "league": "1A Pro League",
+    "att": 69,
+    "mid": 72,
+    "def": 71,
+    "rating": 72
+  },
+  {
+    "teamname": "Nîmes Olympique",
+    "league": "Ligue 1 Uber Eats",
+    "att": 67,
+    "mid": 73,
+    "def": 72,
+    "rating": 72
+  },
+  {
+    "teamname": "Al Nassr",
+    "league": "MBS Pro League",
+    "att": 79,
+    "mid": 71,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Beijing Sinobo Guoan FC",
+    "league": "CSL",
+    "att": 78,
+    "mid": 73,
+    "def": 67,
+    "rating": 71
+  },
+  {
+    "teamname": "Guangzhou Evergrande Taobao FC",
+    "league": "CSL",
+    "att": 76,
+    "mid": 71,
+    "def": 68,
+    "rating": 71
+  },
+  {
+    "teamname": "Girona FC",
+    "league": "LaLiga SmartBank",
+    "att": 76,
+    "mid": 69,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Inter Miami CF",
+    "league": "MLS",
+    "att": 75,
+    "mid": 71,
+    "def": 68,
+    "rating": 71
+  },
+  {
+    "teamname": "Dijon FCO",
+    "league": "Ligue 1 Uber Eats",
+    "att": 74,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Vitória Guimarães",
+    "league": "Liga NOS",
+    "att": 74,
+    "mid": 71,
+    "def": 68,
+    "rating": 71
+  },
+  {
+    "teamname": "Çaykur Rizespor",
+    "league": "Süper Lig",
+    "att": 73,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Club Atlético Lanús",
+    "league": "LPF",
+    "att": 73,
+    "mid": 71,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Fortuna Düsseldorf",
+    "league": "Bundesliga 2",
+    "att": 73,
+    "mid": 70,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "SPAL",
+    "league": "Rest of World",
+    "att": 73,
+    "mid": 70,
+    "def": 67,
+    "rating": 71
+  },
+  {
+    "teamname": "Santos Laguna",
+    "league": "LIGA BBVA MX",
+    "att": 73,
+    "mid": 69,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Junior FC",
+    "league": "Libertadores",
+    "att": 73,
+    "mid": 69,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Seattle Sounders FC",
+    "league": "MLS",
+    "att": 72,
+    "mid": 73,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Birmingham City",
+    "league": "EFL Championship",
+    "att": 72,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "FC Utrecht",
+    "league": "Eredivisie",
+    "att": 72,
+    "mid": 71,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Colón de Santa Fe",
+    "league": "LPF",
+    "att": 72,
+    "mid": 70,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Argentinos Juniors",
+    "league": "LPF",
+    "att": 72,
+    "mid": 68,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Portland Timbers",
+    "league": "MLS",
+    "att": 71,
+    "mid": 73,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Antalyaspor",
+    "league": "Süper Lig",
+    "att": 71,
+    "mid": 72,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Sporting Charleroi",
+    "league": "1A Pro League",
+    "att": 71,
+    "mid": 72,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Vasco da Gama",
+    "league": "Sudamericana",
+    "att": 71,
+    "mid": 71,
+    "def": 73,
+    "rating": 71
+  },
+  {
+    "teamname": "Panathinaikos FC",
+    "league": "Rest of World",
+    "att": 71,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Hannover 96",
+    "league": "Bundesliga 2",
+    "att": 71,
+    "mid": 71,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Defensa y Justicia",
+    "league": "LPF",
+    "att": 71,
+    "mid": 70,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Club Athletico Paranaense",
+    "league": "Liga do Brasil",
+    "att": 71,
+    "mid": 70,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Estudiantes de La Plata",
+    "league": "LPF",
+    "att": 70,
+    "mid": 74,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Goiás",
+    "league": "Liga do Brasil",
+    "att": 70,
+    "mid": 72,
+    "def": 72,
+    "rating": 71
+  },
+  {
+    "teamname": "Columbus Crew SC",
+    "league": "MLS",
+    "att": 70,
+    "mid": 72,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Atlético Clube Goianiense",
+    "league": "Liga do Brasil",
+    "att": 70,
+    "mid": 71,
+    "def": 73,
+    "rating": 71
+  },
+  {
+    "teamname": "Club Atlético Independiente",
+    "league": "LPF",
+    "att": 70,
+    "mid": 71,
+    "def": 72,
+    "rating": 71
+  },
+  {
+    "teamname": "Preston North End",
+    "league": "EFL Championship",
+    "att": 70,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "FC Midtjylland",
+    "league": "3F Superliga",
+    "att": 70,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Colo-Colo",
+    "league": "Libertadores",
+    "att": 70,
+    "mid": 70,
+    "def": 72,
+    "rating": 71
+  },
+  {
+    "teamname": "UD Almería",
+    "league": "LaLiga SmartBank",
+    "att": 70,
+    "mid": 70,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Club Libertad",
+    "league": "Libertadores",
+    "att": 70,
+    "mid": 69,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Alanyaspor",
+    "league": "Süper Lig",
+    "att": 69,
+    "mid": 71,
+    "def": 72,
+    "rating": 71
+  },
+  {
+    "teamname": "Bahia",
+    "league": "Liga do Brasil",
+    "att": 69,
+    "mid": 71,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Boavista FC",
+    "league": "Liga NOS",
+    "att": 69,
+    "mid": 71,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Yeni Malatyaspor",
+    "league": "Süper Lig",
+    "att": 69,
+    "mid": 71,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Cardiff City",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 70,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Stoke City",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 70,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Derby County",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 70,
+    "def": 70,
+    "rating": 71
+  },
+  {
+    "teamname": "Club Atlético Peñarol",
+    "league": "Libertadores",
+    "att": 69,
+    "mid": 69,
+    "def": 69,
+    "rating": 71
+  },
+  {
+    "teamname": "Kayserispor",
+    "league": "Süper Lig",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 71
+  },
+  {
+    "teamname": "Pachuca",
+    "league": "LIGA BBVA MX",
+    "att": 65,
+    "mid": 69,
+    "def": 71,
+    "rating": 71
+  },
+  {
+    "teamname": "Denizlispor",
+    "league": "Süper Lig",
+    "att": 75,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "LAFC",
+    "league": "MLS",
+    "att": 75,
+    "mid": 69,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Toronto FC",
+    "league": "MLS",
+    "att": 74,
+    "mid": 72,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "Gençlerbirliği SK",
+    "league": "Süper Lig",
+    "att": 73,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Shandong Luneng TaiShan FC",
+    "league": "CSL",
+    "att": 73,
+    "mid": 70,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Malmö FF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 73,
+    "mid": 70,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Kawasaki Frontale",
+    "league": "Meiji Yasuda J1",
+    "att": 73,
+    "mid": 69,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "Newell's Old Boys",
+    "league": "LPF",
+    "att": 73,
+    "mid": 69,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "AC Monza",
+    "league": "Rest of World",
+    "att": 73,
+    "mid": 68,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Club Universidad Nacional",
+    "league": "LIGA BBVA MX",
+    "att": 73,
+    "mid": 68,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "Swansea City",
+    "league": "EFL Championship",
+    "att": 72,
+    "mid": 70,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Club Tijuana",
+    "league": "LIGA BBVA MX",
+    "att": 72,
+    "mid": 69,
+    "def": 67,
+    "rating": 70
+  },
+  {
+    "teamname": "Deportivo Toluca",
+    "league": "LIGA BBVA MX",
+    "att": 71,
+    "mid": 71,
+    "def": 66,
+    "rating": 70
+  },
+  {
+    "teamname": "Club Deportivo Guadalajara",
+    "league": "LIGA BBVA MX",
+    "att": 71,
+    "mid": 70,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "Kasimpaşa SK",
+    "league": "Süper Lig",
+    "att": 71,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Fatih Karagümrük SK",
+    "league": "Süper Lig",
+    "att": 71,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Brescia",
+    "league": "Rest of World",
+    "att": 71,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Lecce",
+    "league": "Rest of World",
+    "att": 71,
+    "mid": 68,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "En Avant Guingamp",
+    "league": "Ligue 2 BKT",
+    "att": 70,
+    "mid": 71,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "MKE Ankaragücü",
+    "league": "Süper Lig",
+    "att": 70,
+    "mid": 70,
+    "def": 71,
+    "rating": 70
+  },
+  {
+    "teamname": "LASK",
+    "league": "Ö. Bundesliga",
+    "att": 70,
+    "mid": 70,
+    "def": 71,
+    "rating": 70
+  },
+  {
+    "teamname": "Reading",
+    "league": "EFL Championship",
+    "att": 70,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Ulsan Hyundai Horang-i",
+    "league": "K League 1",
+    "att": 70,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "CD Tenerife",
+    "league": "LaLiga SmartBank",
+    "att": 70,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Millwall",
+    "league": "EFL Championship",
+    "att": 70,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Rayo Vallecano",
+    "league": "LaLiga SmartBank",
+    "att": 70,
+    "mid": 70,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "D.C. United",
+    "league": "MLS",
+    "att": 70,
+    "mid": 70,
+    "def": 66,
+    "rating": 70
+  },
+  {
+    "teamname": "FC Lorient",
+    "league": "Ligue 1 Uber Eats",
+    "att": 70,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Sporting Kansas City",
+    "league": "MLS",
+    "att": 70,
+    "mid": 68,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Gaziantep FK",
+    "league": "Süper Lig",
+    "att": 69,
+    "mid": 71,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Sheffield Wednesday",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 71,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "New York City FC",
+    "league": "MLS",
+    "att": 69,
+    "mid": 70,
+    "def": 71,
+    "rating": 70
+  },
+  {
+    "teamname": "Club Atlas",
+    "league": "LIGA BBVA MX",
+    "att": 69,
+    "mid": 70,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Bristol City",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 70,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "1. FC Nürnberg",
+    "league": "Bundesliga 2",
+    "att": 69,
+    "mid": 70,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "FC CFR 1907 Cluj",
+    "league": "Liga I",
+    "att": 69,
+    "mid": 68,
+    "def": 71,
+    "rating": 70
+  },
+  {
+    "teamname": "Crotone",
+    "league": "Serie A TIM",
+    "att": 69,
+    "mid": 67,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "R. Zaragoza",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 66,
+    "def": 71,
+    "rating": 70
+  },
+  {
+    "teamname": "Banfield",
+    "league": "LPF",
+    "att": 68,
+    "mid": 71,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Konyaspor",
+    "league": "Süper Lig",
+    "att": 68,
+    "mid": 70,
+    "def": 69,
+    "rating": 70
+  },
+  {
+    "teamname": "Atlanta United FC",
+    "league": "MLS",
+    "att": 68,
+    "mid": 69,
+    "def": 67,
+    "rating": 70
+  },
+  {
+    "teamname": "Blackburn Rovers",
+    "league": "EFL Championship",
+    "att": 67,
+    "mid": 71,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "Huddersfield Town",
+    "league": "EFL Championship",
+    "att": 67,
+    "mid": 69,
+    "def": 70,
+    "rating": 70
+  },
+  {
+    "teamname": "La Spezia",
+    "league": "Serie A TIM",
+    "att": 66,
+    "mid": 70,
+    "def": 68,
+    "rating": 70
+  },
+  {
+    "teamname": "Al Ahli",
+    "league": "MBS Pro League",
+    "att": 77,
+    "mid": 70,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "LA Galaxy",
+    "league": "MLS",
+    "att": 77,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Shanghai SIPG FC",
+    "league": "CSL",
+    "att": 74,
+    "mid": 72,
+    "def": 65,
+    "rating": 69
+  },
+  {
+    "teamname": "Fútbol Club Juárez",
+    "league": "LIGA BBVA MX",
+    "att": 74,
+    "mid": 68,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Minnesota United FC",
+    "league": "MLS",
+    "att": 73,
+    "mid": 70,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Al Shabab",
+    "league": "MBS Pro League",
+    "att": 72,
+    "mid": 71,
+    "def": 65,
+    "rating": 69
+  },
+  {
+    "teamname": "Chicago Fire Soccer Club",
+    "league": "MLS",
+    "att": 72,
+    "mid": 70,
+    "def": 64,
+    "rating": 69
+  },
+  {
+    "teamname": "América de Cali",
+    "league": "Libertadores",
+    "att": 72,
+    "mid": 67,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Göztepe SK",
+    "league": "Süper Lig",
+    "att": 71,
+    "mid": 71,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Middlesbrough",
+    "league": "EFL Championship",
+    "att": 71,
+    "mid": 69,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Yokohama F?�Marinos",
+    "league": "Meiji Yasuda J1",
+    "att": 71,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "FCSB",
+    "league": "Liga I",
+    "att": 71,
+    "mid": 68,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "FC Dallas",
+    "league": "MLS",
+    "att": 70,
+    "mid": 71,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Moreirense FC",
+    "league": "Liga NOS",
+    "att": 70,
+    "mid": 70,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "FC Paços de Ferreira",
+    "league": "Liga NOS",
+    "att": 70,
+    "mid": 70,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Fortaleza",
+    "league": "Liga do Brasil",
+    "att": 70,
+    "mid": 69,
+    "def": 71,
+    "rating": 69
+  },
+  {
+    "teamname": "Vissel Kobe",
+    "league": "Meiji Yasuda J1",
+    "att": 70,
+    "mid": 69,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "Unión de Santa Fe",
+    "league": "LPF",
+    "att": 70,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "SV Darmstadt 98",
+    "league": "Bundesliga 2",
+    "att": 70,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "KV Kortrijk",
+    "league": "1A Pro League",
+    "att": 70,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "AJ Auxerre",
+    "league": "Ligue 2 BKT",
+    "att": 70,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "KV Mechelen",
+    "league": "1A Pro League",
+    "att": 70,
+    "mid": 69,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Molde FK",
+    "league": "Eliteserien",
+    "att": 70,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Independiente del Valle",
+    "league": "Libertadores",
+    "att": 70,
+    "mid": 68,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "SV Zulte Waregem",
+    "league": "1A Pro League",
+    "att": 70,
+    "mid": 68,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Willem II",
+    "league": "Eredivisie",
+    "att": 70,
+    "mid": 68,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "VfL Bochum 1848",
+    "league": "Bundesliga 2",
+    "att": 69,
+    "mid": 70,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "SV Sandhausen",
+    "league": "Bundesliga 2",
+    "att": 69,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Santa Clara",
+    "league": "Liga NOS",
+    "att": 69,
+    "mid": 69,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Orlando City Soccer Club",
+    "league": "MLS",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Philadelphia Union",
+    "league": "MLS",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Kaizer Chiefs",
+    "league": "Rest of World",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "SK Rapid Wien",
+    "league": "Ö. Bundesliga",
+    "att": 69,
+    "mid": 68,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Al Ittihad",
+    "league": "MBS Pro League",
+    "att": 69,
+    "mid": 68,
+    "def": 66,
+    "rating": 69
+  },
+  {
+    "teamname": "UD Las Palmas",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 67,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Portimonense SC",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 71,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Jeonbuk Hyundai Motors",
+    "league": "K League 1",
+    "att": 68,
+    "mid": 70,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "SC Paderborn 07",
+    "league": "Bundesliga 2",
+    "att": 68,
+    "mid": 70,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "R. Sporting",
+    "league": "LaLiga SmartBank",
+    "att": 68,
+    "mid": 70,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "KAS Eupen",
+    "league": "1A Pro League",
+    "att": 68,
+    "mid": 69,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "Cerezo Osaka",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Legia Warszawa",
+    "league": "PKO Ekstraklasa",
+    "att": 68,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "New York Red Bulls",
+    "league": "MLS",
+    "att": 68,
+    "mid": 69,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "SM Caen",
+    "league": "Ligue 2 BKT",
+    "att": 68,
+    "mid": 69,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "CD Nacional",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Marítimo",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 68,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "ESTAC Troyes",
+    "league": "Ligue 2 BKT",
+    "att": 68,
+    "mid": 68,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Lech Poznań",
+    "league": "PKO Ekstraklasa",
+    "att": 68,
+    "mid": 68,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "New England Revolution",
+    "league": "MLS",
+    "att": 68,
+    "mid": 68,
+    "def": 66,
+    "rating": 69
+  },
+  {
+    "teamname": "Toulouse FC",
+    "league": "Ligue 2 BKT",
+    "att": 68,
+    "mid": 67,
+    "def": 69,
+    "rating": 69
+  },
+  {
+    "teamname": "Mazatlán Fútbol Club",
+    "league": "LIGA BBVA MX",
+    "att": 68,
+    "mid": 67,
+    "def": 65,
+    "rating": 69
+  },
+  {
+    "teamname": "Rosenborg BK",
+    "league": "Eliteserien",
+    "att": 67,
+    "mid": 71,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Puebla",
+    "league": "LIGA BBVA MX",
+    "att": 67,
+    "mid": 70,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "1. FC Heidenheim 1846",
+    "league": "Bundesliga 2",
+    "att": 67,
+    "mid": 69,
+    "def": 71,
+    "rating": 69
+  },
+  {
+    "teamname": "Vitesse",
+    "league": "Eredivisie",
+    "att": 67,
+    "mid": 69,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "Amiens SC",
+    "league": "Ligue 2 BKT",
+    "att": 67,
+    "mid": 69,
+    "def": 67,
+    "rating": 69
+  },
+  {
+    "teamname": "Club Atlético de San Luis",
+    "league": "LIGA BBVA MX",
+    "att": 67,
+    "mid": 67,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Rosario Central",
+    "league": "LPF",
+    "att": 66,
+    "mid": 70,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "Ceará Sporting Club",
+    "league": "Liga do Brasil",
+    "att": 66,
+    "mid": 69,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "Atlético Nacional",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 70,
+    "def": 70,
+    "rating": 69
+  },
+  {
+    "teamname": "LDU Quito",
+    "league": "Libertadores",
+    "att": 65,
+    "mid": 69,
+    "def": 68,
+    "rating": 69
+  },
+  {
+    "teamname": "Al Ain FC",
+    "league": "Rest of World",
+    "att": 74,
+    "mid": 68,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "Shanghai Greenland Shenhua",
+    "league": "CSL",
+    "att": 72,
+    "mid": 69,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "FC St. Pauli",
+    "league": "Bundesliga 2",
+    "att": 72,
+    "mid": 66,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Cincinnati",
+    "league": "MLS",
+    "att": 71,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Chievo Verona",
+    "league": "Rest of World",
+    "att": 71,
+    "mid": 67,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "Impact Montréal",
+    "league": "MLS",
+    "att": 70,
+    "mid": 70,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "Gimnasia y Esgrima La Plata",
+    "league": "LPF",
+    "att": 70,
+    "mid": 68,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "AD Alcorcón",
+    "league": "LaLiga SmartBank",
+    "att": 70,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "Houston Dynamo",
+    "league": "MLS",
+    "att": 70,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Cartagena",
+    "league": "LaLiga SmartBank",
+    "att": 70,
+    "mid": 67,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Kashiwa Reysol",
+    "league": "Meiji Yasuda J1",
+    "att": 70,
+    "mid": 67,
+    "def": 64,
+    "rating": 68
+  },
+  {
+    "teamname": "Gamba Osaka",
+    "league": "Meiji Yasuda J1",
+    "att": 70,
+    "mid": 66,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "Royal Excel Mouscron",
+    "league": "1A Pro League",
+    "att": 70,
+    "mid": 66,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Holstein Kiel",
+    "league": "Bundesliga 2",
+    "att": 69,
+    "mid": 71,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Colorado Rapids",
+    "league": "MLS",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Queens Park Rangers",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 69,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Nagoya Grampus",
+    "league": "Meiji Yasuda J1",
+    "att": 69,
+    "mid": 69,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Seoul",
+    "league": "K League 1",
+    "att": 69,
+    "mid": 69,
+    "def": 65,
+    "rating": 68
+  },
+  {
+    "teamname": "Sanfrecce Hiroshima",
+    "league": "Meiji Yasuda J1",
+    "att": 69,
+    "mid": 68,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "BB Erzurumspor",
+    "league": "Süper Lig",
+    "att": 69,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Erzgebirge Aue",
+    "league": "Bundesliga 2",
+    "att": 69,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "Real Salt Lake",
+    "league": "MLS",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Kashima Antlers",
+    "league": "Meiji Yasuda J1",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Emmen",
+    "league": "Eredivisie",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Oud-Heverlee Leuven",
+    "league": "1A Pro League",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Empoli",
+    "league": "Rest of World",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Sint-Truidense VV",
+    "league": "1A Pro League",
+    "att": 69,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Orlando Pirates",
+    "league": "Rest of World",
+    "att": 69,
+    "mid": 67,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "Albacete Balompié",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 67,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FK Austria Wien",
+    "league": "Ö. Bundesliga",
+    "att": 69,
+    "mid": 67,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "SD Ponferradina",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 67,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Málaga CF",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 67,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "R. Oviedo",
+    "league": "LaLiga SmartBank",
+    "att": 68,
+    "mid": 69,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "SC Farense",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 69,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Atlético Tucumán",
+    "league": "LPF",
+    "att": 68,
+    "mid": 68,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "K Beerschot VA",
+    "league": "1A Pro League",
+    "att": 68,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Belenenses",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 66,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "Futebol Clube de Famalicão",
+    "league": "Liga NOS",
+    "att": 68,
+    "mid": 66,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "San Jose Earthquakes",
+    "league": "MLS",
+    "att": 67,
+    "mid": 70,
+    "def": 66,
+    "rating": 68
+  },
+  {
+    "teamname": "Millonarios FC",
+    "league": "Sudamericana",
+    "att": 67,
+    "mid": 69,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "AIK",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 67,
+    "mid": 69,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Hatayspor",
+    "league": "Süper Lig",
+    "att": 67,
+    "mid": 69,
+    "def": 65,
+    "rating": 68
+  },
+  {
+    "teamname": "CD Lugo",
+    "league": "LaLiga SmartBank",
+    "att": 67,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "Nashville SC",
+    "league": "MLS",
+    "att": 66,
+    "mid": 67,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Gil Vicente FC",
+    "league": "Liga NOS",
+    "att": 66,
+    "mid": 66,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "Djurgårdens IF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 65,
+    "mid": 69,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "Universitatea Craiova",
+    "league": "Liga I",
+    "att": 65,
+    "mid": 69,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Groningen",
+    "league": "Eredivisie",
+    "att": 65,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "Karlsruher SC",
+    "league": "Bundesliga 2",
+    "att": 65,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "Club Necaxa",
+    "league": "LIGA BBVA MX",
+    "att": 65,
+    "mid": 67,
+    "def": 69,
+    "rating": 68
+  },
+  {
+    "teamname": "VfL Osnabrück",
+    "league": "Bundesliga 2",
+    "att": 64,
+    "mid": 68,
+    "def": 68,
+    "rating": 68
+  },
+  {
+    "teamname": "FC Dinamo 1948",
+    "league": "Liga I",
+    "att": 59,
+    "mid": 68,
+    "def": 67,
+    "rating": 68
+  },
+  {
+    "teamname": "Jiangsu Suning",
+    "league": "CSL",
+    "att": 76,
+    "mid": 66,
+    "def": 64,
+    "rating": 67
+  },
+  {
+    "teamname": "Vancouver Whitecaps FC",
+    "league": "MLS",
+    "att": 72,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Wuhan Zall Professional FC",
+    "league": "CSL",
+    "att": 72,
+    "mid": 65,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "Club Atlético Central Córdoba",
+    "league": "LPF",
+    "att": 71,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Eintracht Braunschweig",
+    "league": "Bundesliga 2",
+    "att": 70,
+    "mid": 67,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "Godoy Cruz",
+    "league": "LPF",
+    "att": 70,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Aalborg BK",
+    "league": "3F Superliga",
+    "att": 69,
+    "mid": 68,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "CF Fuenlabrada",
+    "league": "LaLiga SmartBank",
+    "att": 69,
+    "mid": 67,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "SC Heerenveen",
+    "league": "Eredivisie",
+    "att": 69,
+    "mid": 67,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Pohang Steelers",
+    "league": "K League 1",
+    "att": 69,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Club Bolívar",
+    "league": "Libertadores",
+    "att": 69,
+    "mid": 67,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "AFC Astra Giurgiu",
+    "league": "Liga I",
+    "att": 69,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Hokkaido Consadole Sapporo",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 67,
+    "def": 69,
+    "rating": 67
+  },
+  {
+    "teamname": "Unión La Calera",
+    "league": "Sudamericana",
+    "att": 68,
+    "mid": 67,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "F.C. Tokyo",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "SpVgg Greuther Fürth",
+    "league": "Bundesliga 2",
+    "att": 68,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "IFK Norrköping",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 68,
+    "mid": 67,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "Club Guaraní",
+    "league": "Libertadores",
+    "att": 68,
+    "mid": 67,
+    "def": 64,
+    "rating": 67
+  },
+  {
+    "teamname": "Urawa Red Diamonds",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Lechia Gdańsk",
+    "league": "PKO Ekstraklasa",
+    "att": 68,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "FC Luzern",
+    "league": "RSL",
+    "att": 68,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Waasland-Beveren",
+    "league": "1A Pro League",
+    "att": 68,
+    "mid": 66,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Brøndby IF",
+    "league": "3F Superliga",
+    "att": 68,
+    "mid": 65,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Al Wehda",
+    "league": "MBS Pro League",
+    "att": 67,
+    "mid": 69,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "Hammarby IF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 67,
+    "mid": 69,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Aarhus AGF",
+    "league": "3F Superliga",
+    "att": 67,
+    "mid": 68,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "FK Bodø/Glimt",
+    "league": "Eliteserien",
+    "att": 67,
+    "mid": 68,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Aberdeen",
+    "league": "Scottish Prem",
+    "att": 67,
+    "mid": 68,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Luton Town",
+    "league": "EFL Championship",
+    "att": 67,
+    "mid": 67,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Coventry City",
+    "league": "EFL Championship",
+    "att": 67,
+    "mid": 67,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "PEC Zwolle",
+    "league": "Eredivisie",
+    "att": 67,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "KV Oostende",
+    "league": "1A Pro League",
+    "att": 67,
+    "mid": 67,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "FC Viitorul Constan?a",
+    "league": "Liga I",
+    "att": 67,
+    "mid": 66,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "Paris FC",
+    "league": "Ligue 2 BKT",
+    "att": 67,
+    "mid": 66,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "Oita Trinita",
+    "league": "Meiji Yasuda J1",
+    "att": 67,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "UD Logroñés",
+    "league": "LaLiga SmartBank",
+    "att": 67,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "RZ Pellets Wolfsberger AC",
+    "league": "Ö. Bundesliga",
+    "att": 67,
+    "mid": 66,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Deportivo Cali",
+    "league": "Sudamericana",
+    "att": 67,
+    "mid": 65,
+    "def": 69,
+    "rating": 67
+  },
+  {
+    "teamname": "Barcelona Sporting Club",
+    "league": "Libertadores",
+    "att": 67,
+    "mid": 65,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "Cercle Brugge",
+    "league": "1A Pro League",
+    "att": 66,
+    "mid": 68,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "SK Sturm Graz",
+    "league": "Ö. Bundesliga",
+    "att": 66,
+    "mid": 68,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "AC Ajaccio",
+    "league": "Ligue 2 BKT",
+    "att": 66,
+    "mid": 67,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Jagiellonia Białystok",
+    "league": "PKO Ekstraklasa",
+    "att": 66,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Suwon Samsung Bluewings",
+    "league": "K League 1",
+    "att": 66,
+    "mid": 67,
+    "def": 65,
+    "rating": 67
+  },
+  {
+    "teamname": "CD Tondela",
+    "league": "Liga NOS",
+    "att": 66,
+    "mid": 66,
+    "def": 69,
+    "rating": 67
+  },
+  {
+    "teamname": "Oceânico FC",
+    "league": "Liga do Brasil",
+    "att": 66,
+    "mid": 66,
+    "def": 68,
+    "rating": 67
+  },
+  {
+    "teamname": "Valenciennes FC",
+    "league": "Ligue 2 BKT",
+    "att": 66,
+    "mid": 66,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Pogoń Szczecin",
+    "league": "PKO Ekstraklasa",
+    "att": 66,
+    "mid": 66,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Deportivo Binacional",
+    "league": "Libertadores",
+    "att": 66,
+    "mid": 66,
+    "def": 64,
+    "rating": 67
+  },
+  {
+    "teamname": "FC Twente",
+    "league": "Eredivisie",
+    "att": 66,
+    "mid": 64,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "Arsenal de Sarandí",
+    "league": "LPF",
+    "att": 65,
+    "mid": 68,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Club Atlético Aldosivi",
+    "league": "LPF",
+    "att": 65,
+    "mid": 66,
+    "def": 69,
+    "rating": 67
+  },
+  {
+    "teamname": "Havre AC",
+    "league": "Ligue 2 BKT",
+    "att": 64,
+    "mid": 67,
+    "def": 66,
+    "rating": 67
+  },
+  {
+    "teamname": "IFK Göteborg",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 63,
+    "mid": 68,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Wisła Kraków",
+    "league": "PKO Ekstraklasa",
+    "att": 63,
+    "mid": 67,
+    "def": 67,
+    "rating": 67
+  },
+  {
+    "teamname": "Club Atlético Talleres",
+    "league": "LPF",
+    "att": 62,
+    "mid": 67,
+    "def": 69,
+    "rating": 67
+  },
+  {
+    "teamname": "Henan Jianye FC",
+    "league": "CSL",
+    "att": 72,
+    "mid": 66,
+    "def": 61,
+    "rating": 66
+  },
+  {
+    "teamname": "Fortuna Sittard",
+    "league": "Eredivisie",
+    "att": 70,
+    "mid": 67,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Barnsley",
+    "league": "EFL Championship",
+    "att": 69,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "AFC Boto?ani",
+    "league": "Liga I",
+    "att": 69,
+    "mid": 65,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "TSV Prolactal Hartberg",
+    "league": "Ö. Bundesliga",
+    "att": 69,
+    "mid": 65,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Grenoble Foot 38",
+    "league": "Ligue 2 BKT",
+    "att": 68,
+    "mid": 67,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Shimizu S-Pulse",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 67,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Vegalta Sendai",
+    "league": "Meiji Yasuda J1",
+    "att": 68,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Shenzhen Kaisa",
+    "league": "CSL",
+    "att": 68,
+    "mid": 65,
+    "def": 62,
+    "rating": 66
+  },
+  {
+    "teamname": "Sydney FC",
+    "league": "A-League",
+    "att": 67,
+    "mid": 68,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "FC Ingolstadt 04",
+    "league": "3. Liga",
+    "att": 67,
+    "mid": 67,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Cracovia",
+    "league": "PKO Ekstraklasa",
+    "att": 67,
+    "mid": 67,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Patronato",
+    "league": "LPF",
+    "att": 67,
+    "mid": 66,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "FC Sochaux-Montbéliard",
+    "league": "Ligue 2 BKT",
+    "att": 67,
+    "mid": 66,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "CS Emelec",
+    "league": "Sudamericana",
+    "att": 67,
+    "mid": 66,
+    "def": 64,
+    "rating": 66
+  },
+  {
+    "teamname": "Vålerenga Fotball",
+    "league": "Eliteserien",
+    "att": 67,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Delfín Sporting Club",
+    "league": "Libertadores",
+    "att": 67,
+    "mid": 65,
+    "def": 64,
+    "rating": 66
+  },
+  {
+    "teamname": "Gaz Metan Media?",
+    "league": "Liga I",
+    "att": 67,
+    "mid": 65,
+    "def": 64,
+    "rating": 66
+  },
+  {
+    "teamname": "VVV-Venlo",
+    "league": "Eredivisie",
+    "att": 66,
+    "mid": 67,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "SSV Jahn Regensburg",
+    "league": "Bundesliga 2",
+    "att": 66,
+    "mid": 67,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Sunderland",
+    "league": "EFL League One",
+    "att": 66,
+    "mid": 67,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Kilmarnock",
+    "league": "Scottish Prem",
+    "att": 66,
+    "mid": 67,
+    "def": 63,
+    "rating": 66
+  },
+  {
+    "teamname": "Club Deportivo Jorge Wilstermann",
+    "league": "Libertadores",
+    "att": 66,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "SK Brann",
+    "league": "Eliteserien",
+    "att": 66,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "CD Castellón",
+    "league": "LaLiga SmartBank",
+    "att": 66,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "CE Sabadell FC",
+    "league": "LaLiga SmartBank",
+    "att": 66,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Portsmouth",
+    "league": "EFL League One",
+    "att": 66,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Hull City",
+    "league": "EFL League One",
+    "att": 66,
+    "mid": 65,
+    "def": 68,
+    "rating": 66
+  },
+  {
+    "teamname": "Gallos Blancos de Querétaro",
+    "league": "LIGA BBVA MX",
+    "att": 66,
+    "mid": 65,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "Wycombe Wanderers",
+    "league": "EFL Championship",
+    "att": 66,
+    "mid": 65,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "Rotherham United",
+    "league": "EFL Championship",
+    "att": 66,
+    "mid": 65,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "Al Taawoun",
+    "league": "MBS Pro League",
+    "att": 66,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Odense Boldklub",
+    "league": "3F Superliga",
+    "att": 66,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Coquimbo Unido",
+    "league": "Sudamericana",
+    "att": 66,
+    "mid": 63,
+    "def": 64,
+    "rating": 66
+  },
+  {
+    "teamname": "FC Sion",
+    "league": "RSL",
+    "att": 65,
+    "mid": 67,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "FC St. Gallen 1879",
+    "league": "RSL",
+    "att": 65,
+    "mid": 67,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Deportivo Pasto",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 66,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "FC Würzburger Kickers",
+    "league": "Bundesliga 2",
+    "att": 65,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "IF Elfsborg",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 65,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Śląsk Wrocław",
+    "league": "PKO Ekstraklasa",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Motherwell",
+    "league": "Scottish Prem",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Hibernian",
+    "league": "Scottish Prem",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Charlton Athletic",
+    "league": "EFL League One",
+    "att": 65,
+    "mid": 66,
+    "def": 64,
+    "rating": 66
+  },
+  {
+    "teamname": "Heracles Almelo",
+    "league": "Eredivisie",
+    "att": 65,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "BK Häcken",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 65,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Châteauroux",
+    "league": "Ligue 2 BKT",
+    "att": 65,
+    "mid": 65,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "RKC Waalwijk",
+    "league": "Eredivisie",
+    "att": 65,
+    "mid": 65,
+    "def": 65,
+    "rating": 66
+  },
+  {
+    "teamname": "Ettifaq FC",
+    "league": "MBS Pro League",
+    "att": 64,
+    "mid": 69,
+    "def": 63,
+    "rating": 66
+  },
+  {
+    "teamname": "Sparta Rotterdam",
+    "league": "Eredivisie",
+    "att": 64,
+    "mid": 67,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "SG Dynamo Dresden",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "SV Wehen Wiesbaden",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 66,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Piast Gliwice",
+    "league": "PKO Ekstraklasa",
+    "att": 64,
+    "mid": 65,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "Clermont Foot 63",
+    "league": "Ligue 2 BKT",
+    "att": 63,
+    "mid": 67,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "CD Mirandés",
+    "league": "LaLiga SmartBank",
+    "att": 63,
+    "mid": 63,
+    "def": 66,
+    "rating": 66
+  },
+  {
+    "teamname": "Audax Italiano",
+    "league": "Sudamericana",
+    "att": 60,
+    "mid": 65,
+    "def": 67,
+    "rating": 66
+  },
+  {
+    "teamname": "Hebei China Fortune FC",
+    "league": "CSL",
+    "att": 73,
+    "mid": 61,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Dalian Professional Football Club",
+    "league": "CSL",
+    "att": 73,
+    "mid": 61,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Daegu FC",
+    "league": "K League 1",
+    "att": 68,
+    "mid": 65,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "Tianjin TEDA FC",
+    "league": "CSL",
+    "att": 68,
+    "mid": 61,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Chamois Niortais FC",
+    "league": "Ligue 2 BKT",
+    "att": 67,
+    "mid": 66,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Peterborough United",
+    "league": "EFL League One",
+    "att": 67,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Al Faisaly",
+    "league": "MBS Pro League",
+    "att": 67,
+    "mid": 65,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Viktoria Köln",
+    "league": "3. Liga",
+    "att": 67,
+    "mid": 65,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Viking FK",
+    "league": "Eliteserien",
+    "att": 67,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Shonan Bellmare",
+    "league": "Meiji Yasuda J1",
+    "att": 67,
+    "mid": 64,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Gangwon FC",
+    "league": "K League 1",
+    "att": 67,
+    "mid": 63,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Górnik Zabrze",
+    "league": "PKO Ekstraklasa",
+    "att": 67,
+    "mid": 63,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Club River Plate Asunción",
+    "league": "Sudamericana",
+    "att": 67,
+    "mid": 61,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Guangzhou R&F FC",
+    "league": "CSL",
+    "att": 67,
+    "mid": 61,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "Al Raed",
+    "league": "MBS Pro League",
+    "att": 66,
+    "mid": 67,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Oxford United",
+    "league": "EFL League One",
+    "att": 66,
+    "mid": 65,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Sport Huancayo",
+    "league": "Sudamericana",
+    "att": 66,
+    "mid": 65,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "Odds BK",
+    "league": "Eliteserien",
+    "att": 66,
+    "mid": 64,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Ipswich Town",
+    "league": "EFL League One",
+    "att": 66,
+    "mid": 64,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Sarpsborg 08",
+    "league": "Eliteserien",
+    "att": 66,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Always Ready",
+    "league": "Sudamericana",
+    "att": 66,
+    "mid": 64,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "SC Rheindorf Altach",
+    "league": "Ö. Bundesliga",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "FC Lugano",
+    "league": "RSL",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "FC Nordsjælland",
+    "league": "3F Superliga",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Servette FC",
+    "league": "RSL",
+    "att": 65,
+    "mid": 66,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Sol de América",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 66,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Fleetwood Town",
+    "league": "EFL League One",
+    "att": 65,
+    "mid": 66,
+    "def": 61,
+    "rating": 65
+  },
+  {
+    "teamname": "1. FC Kaiserslautern",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 65,
+    "def": 67,
+    "rating": 65
+  },
+  {
+    "teamname": "Sepsi OSK Sf. Gheorghe",
+    "league": "Liga I",
+    "att": 65,
+    "mid": 65,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Pau FC",
+    "league": "Ligue 2 BKT",
+    "att": 65,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "KFC Uerdingen 05",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 65,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Yokohama FC",
+    "league": "Meiji Yasuda J1",
+    "att": 65,
+    "mid": 65,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "FBC Melgar",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 65,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Nacional",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 65,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "Sangju Sangmu FC",
+    "league": "K League 1",
+    "att": 65,
+    "mid": 64,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Randers FC",
+    "league": "3F Superliga",
+    "att": 65,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Atlético Huracán",
+    "league": "LPF",
+    "att": 65,
+    "mid": 63,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Atlético River Plate",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 63,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Independiente Medellín",
+    "league": "Libertadores",
+    "att": 65,
+    "mid": 62,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "SønderjyskE",
+    "league": "3F Superliga",
+    "att": 64,
+    "mid": 67,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "ADO Den Haag",
+    "league": "Eredivisie",
+    "att": 64,
+    "mid": 66,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Zagłębie Lubin",
+    "league": "PKO Ekstraklasa",
+    "att": 64,
+    "mid": 66,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "C.D. Universidad Católica del Ecuador",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Kristiansund BK",
+    "league": "Eliteserien",
+    "att": 64,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "SV Guntamatic Ried",
+    "league": "Ö. Bundesliga",
+    "att": 64,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Helsingborgs IF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 64,
+    "mid": 64,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "FC Hansa Rostock",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 64,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Liverpool Fútbol Club",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Blackpool",
+    "league": "EFL League One",
+    "att": 64,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Deportivo El Nacional",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 63,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Raków Częstochowa",
+    "league": "PKO Ekstraklasa",
+    "att": 63,
+    "mid": 66,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Stabæk Fotball",
+    "league": "Eliteserien",
+    "att": 63,
+    "mid": 66,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Huachipato",
+    "league": "Sudamericana",
+    "att": 63,
+    "mid": 66,
+    "def": 63,
+    "rating": 65
+  },
+  {
+    "teamname": "Rodez Aveyron Football",
+    "league": "Ligue 2 BKT",
+    "att": 63,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Sociedad Deportiva Aucas",
+    "league": "Sudamericana",
+    "att": 63,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Wisła Płock",
+    "league": "PKO Ekstraklasa",
+    "att": 63,
+    "mid": 65,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "Vejle Boldklub",
+    "league": "3F Superliga",
+    "att": 63,
+    "mid": 65,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Atlético Tigre",
+    "league": "Libertadores",
+    "att": 63,
+    "mid": 64,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "FC Zürich",
+    "league": "RSL",
+    "att": 62,
+    "mid": 67,
+    "def": 62,
+    "rating": 65
+  },
+  {
+    "teamname": "SpVgg Unterhaching",
+    "league": "3. Liga",
+    "att": 62,
+    "mid": 65,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "AS Nancy Lorraine",
+    "league": "Ligue 2 BKT",
+    "att": 62,
+    "mid": 64,
+    "def": 66,
+    "rating": 65
+  },
+  {
+    "teamname": "Club Alianza Lima",
+    "league": "Libertadores",
+    "att": 62,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Centro Atlético Fénix",
+    "league": "Sudamericana",
+    "att": 61,
+    "mid": 64,
+    "def": 65,
+    "rating": 65
+  },
+  {
+    "teamname": "AFC Hermannstadt",
+    "league": "Liga I",
+    "att": 61,
+    "mid": 64,
+    "def": 64,
+    "rating": 65
+  },
+  {
+    "teamname": "Al Hazem",
+    "league": "MBS Pro League",
+    "att": 70,
+    "mid": 63,
+    "def": 62,
+    "rating": 64
+  },
+  {
+    "teamname": "Melbourne City",
+    "league": "A-League",
+    "att": 68,
+    "mid": 63,
+    "def": 65,
+    "rating": 64
+  },
+  {
+    "teamname": "Western United FC",
+    "league": "A-League",
+    "att": 67,
+    "mid": 65,
+    "def": 62,
+    "rating": 64
+  },
+  {
+    "teamname": "Al Fateh",
+    "league": "MBS Pro League",
+    "att": 67,
+    "mid": 63,
+    "def": 65,
+    "rating": 64
+  },
+  {
+    "teamname": "Wigan Athletic",
+    "league": "EFL League One",
+    "att": 67,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "GwangJu FC",
+    "league": "K League 1",
+    "att": 67,
+    "mid": 61,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "IK Sirius",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 66,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Hallescher FC",
+    "league": "3. Liga",
+    "att": 66,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Al Fayha",
+    "league": "MBS Pro League",
+    "att": 65,
+    "mid": 67,
+    "def": 62,
+    "rating": 64
+  },
+  {
+    "teamname": "Incheon United FC",
+    "league": "K League 1",
+    "att": 65,
+    "mid": 65,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "FC Voluntari",
+    "league": "Liga I",
+    "att": 65,
+    "mid": 65,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "MSV Duisburg",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Dundalk",
+    "league": "SSE Airtricity Lge",
+    "att": 65,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "TSV 1860 München",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "USL Dunkerque",
+    "league": "Ligue 2 BKT",
+    "att": 65,
+    "mid": 64,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "Seongnam FC",
+    "league": "K League 1",
+    "att": 65,
+    "mid": 64,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "WSG Swarovski Tirol",
+    "league": "Ö. Bundesliga",
+    "att": 65,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "1. FC Saarbrücken",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Dundee United",
+    "league": "Scottish Prem",
+    "att": 65,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "1. FC Magdeburg",
+    "league": "3. Liga",
+    "att": 65,
+    "mid": 63,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "HJK Helsinki",
+    "league": "Rest of World",
+    "att": 64,
+    "mid": 66,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Salford City",
+    "league": "EFL League Two",
+    "att": 64,
+    "mid": 65,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "St. Johnstone FC",
+    "league": "Scottish Prem",
+    "att": 64,
+    "mid": 65,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "Livingston FC",
+    "league": "Scottish Prem",
+    "att": 64,
+    "mid": 64,
+    "def": 66,
+    "rating": 64
+  },
+  {
+    "teamname": "Cusco Fútbol Club",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 64,
+    "def": 65,
+    "rating": 64
+  },
+  {
+    "teamname": "FC Chambly Oise",
+    "league": "Ligue 2 BKT",
+    "att": 64,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "spusu SKN St. Pölten",
+    "league": "Ö. Bundesliga",
+    "att": 64,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Burton Albion",
+    "league": "EFL League One",
+    "att": 64,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Örebro SK",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 64,
+    "mid": 64,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "CSM Politehnica Ia?i",
+    "league": "Liga I",
+    "att": 64,
+    "mid": 64,
+    "def": 62,
+    "rating": 64
+  },
+  {
+    "teamname": "Club Plaza de Deportes Colonia",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 63,
+    "def": 66,
+    "rating": 64
+  },
+  {
+    "teamname": "Busan IPark",
+    "league": "K League 1",
+    "att": 64,
+    "mid": 63,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "Club Social, Cultural y Deportivo Blooming",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 62,
+    "def": 62,
+    "rating": 64
+  },
+  {
+    "teamname": "Shrewsbury",
+    "league": "EFL League One",
+    "att": 64,
+    "mid": 60,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Strømsgodset IF",
+    "league": "Eliteserien",
+    "att": 63,
+    "mid": 65,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "SV Meppen",
+    "league": "3. Liga",
+    "att": 63,
+    "mid": 64,
+    "def": 65,
+    "rating": 64
+  },
+  {
+    "teamname": "Lyngby BK",
+    "league": "3F Superliga",
+    "att": 63,
+    "mid": 64,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "FC Lausanne-Sport",
+    "league": "RSL",
+    "att": 63,
+    "mid": 64,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "AC Horsens",
+    "league": "3F Superliga",
+    "att": 63,
+    "mid": 63,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Milton Keynes Dons",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 63,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "Damac FC",
+    "league": "MBS Pro League",
+    "att": 63,
+    "mid": 61,
+    "def": 67,
+    "rating": 64
+  },
+  {
+    "teamname": "SV Waldhof Mannheim 07",
+    "league": "3. Liga",
+    "att": 62,
+    "mid": 65,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "FC Flyeralarm Admira",
+    "league": "Ö. Bundesliga",
+    "att": 62,
+    "mid": 64,
+    "def": 63,
+    "rating": 64
+  },
+  {
+    "teamname": "Sagan Tosu",
+    "league": "Meiji Yasuda J1",
+    "att": 61,
+    "mid": 65,
+    "def": 64,
+    "rating": 64
+  },
+  {
+    "teamname": "Perth Glory",
+    "league": "A-League",
+    "att": 70,
+    "mid": 60,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Shamrock Rovers",
+    "league": "SSE Airtricity Lge",
+    "att": 66,
+    "mid": 63,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Club Deportivo Oriente Petrolero",
+    "league": "Sudamericana",
+    "att": 65,
+    "mid": 63,
+    "def": 61,
+    "rating": 63
+  },
+  {
+    "teamname": "FC Bayern München II",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 64,
+    "def": 60,
+    "rating": 63
+  },
+  {
+    "teamname": "Türkgücü München",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 63,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Mansfield Town",
+    "league": "EFL League Two",
+    "att": 64,
+    "mid": 63,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "FSV Zwickau",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 63,
+    "def": 61,
+    "rating": 63
+  },
+  {
+    "teamname": "Lincoln City",
+    "league": "EFL League One",
+    "att": 64,
+    "mid": 63,
+    "def": 61,
+    "rating": 63
+  },
+  {
+    "teamname": "Bolton Wanderers",
+    "league": "EFL League Two",
+    "att": 64,
+    "mid": 63,
+    "def": 59,
+    "rating": 63
+  },
+  {
+    "teamname": "St. Mirren",
+    "league": "Scottish Prem",
+    "att": 64,
+    "mid": 62,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Plymouth Argyle",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 65,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Caracas Fútbol Club",
+    "league": "Libertadores",
+    "att": 63,
+    "mid": 65,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "FK Haugesund",
+    "league": "Eliteserien",
+    "att": 63,
+    "mid": 64,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Estudiantes de Mérida",
+    "league": "Libertadores",
+    "att": 63,
+    "mid": 64,
+    "def": 61,
+    "rating": 63
+  },
+  {
+    "teamname": "Bristol Rovers",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 63,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Crewe Alexandra",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 63,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Tranmere Rovers",
+    "league": "EFL League Two",
+    "att": 63,
+    "mid": 63,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Kalmar FF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 63,
+    "mid": 63,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Mineros de Guayana",
+    "league": "Sudamericana",
+    "att": 63,
+    "mid": 63,
+    "def": 61,
+    "rating": 63
+  },
+  {
+    "teamname": "Colchester United",
+    "league": "EFL League Two",
+    "att": 63,
+    "mid": 62,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Swindon Town",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 62,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Gillingham",
+    "league": "EFL League One",
+    "att": 63,
+    "mid": 61,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "FC UTA Arad",
+    "league": "Liga I",
+    "att": 63,
+    "mid": 60,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "IK Start",
+    "league": "Eliteserien",
+    "att": 62,
+    "mid": 64,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "VfB Lübeck",
+    "league": "3. Liga",
+    "att": 62,
+    "mid": 63,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "Mjøndalen IF",
+    "league": "Eliteserien",
+    "att": 62,
+    "mid": 62,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "Port Vale",
+    "league": "EFL League Two",
+    "att": 62,
+    "mid": 62,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "AFC Chindia Târgovi?te",
+    "league": "Liga I",
+    "att": 62,
+    "mid": 61,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Club Atlético Nacional Potosí",
+    "league": "Sudamericana",
+    "att": 61,
+    "mid": 65,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Doncaster Rovers",
+    "league": "EFL League One",
+    "att": 61,
+    "mid": 64,
+    "def": 63,
+    "rating": 63
+  },
+  {
+    "teamname": "Northampton Town",
+    "league": "EFL League One",
+    "att": 61,
+    "mid": 63,
+    "def": 64,
+    "rating": 63
+  },
+  {
+    "teamname": "Östersunds FK",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 61,
+    "mid": 63,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "Abha Club",
+    "league": "MBS Pro League",
+    "att": 60,
+    "mid": 64,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "Wellington Phoenix",
+    "league": "A-League",
+    "att": 59,
+    "mid": 65,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "PGE FKS Stal Mielec",
+    "league": "PKO Ekstraklasa",
+    "att": 58,
+    "mid": 64,
+    "def": 62,
+    "rating": 63
+  },
+  {
+    "teamname": "Mjällby AIF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 65,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Chongqing Dangdai Lifan FC SWM Team",
+    "league": "CSL",
+    "att": 65,
+    "mid": 59,
+    "def": 59,
+    "rating": 62
+  },
+  {
+    "teamname": "Ross County FC",
+    "league": "Scottish Prem",
+    "att": 64,
+    "mid": 62,
+    "def": 61,
+    "rating": 62
+  },
+  {
+    "teamname": "Sportclub Verl",
+    "league": "3. Liga",
+    "att": 64,
+    "mid": 61,
+    "def": 61,
+    "rating": 62
+  },
+  {
+    "teamname": "Club Atlético Grau",
+    "league": "Sudamericana",
+    "att": 64,
+    "mid": 60,
+    "def": 61,
+    "rating": 62
+  },
+  {
+    "teamname": "Western Sydney Wanderers",
+    "league": "A-League",
+    "att": 63,
+    "mid": 64,
+    "def": 60,
+    "rating": 62
+  },
+  {
+    "teamname": "FC Vaduz",
+    "league": "RSL",
+    "att": 63,
+    "mid": 63,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Podbeskidzie Bielsko-Biała",
+    "league": "PKO Ekstraklasa",
+    "att": 63,
+    "mid": 62,
+    "def": 60,
+    "rating": 62
+  },
+  {
+    "teamname": "Exeter City",
+    "league": "EFL League Two",
+    "att": 63,
+    "mid": 61,
+    "def": 60,
+    "rating": 62
+  },
+  {
+    "teamname": "Oldham Athletic",
+    "league": "EFL League Two",
+    "att": 63,
+    "mid": 60,
+    "def": 63,
+    "rating": 62
+  },
+  {
+    "teamname": "Newcastle Jets",
+    "league": "A-League",
+    "att": 62,
+    "mid": 64,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Sandefjord Fotball",
+    "league": "Eliteserien",
+    "att": 62,
+    "mid": 63,
+    "def": 63,
+    "rating": 62
+  },
+  {
+    "teamname": "Al Adalah Club",
+    "league": "MBS Pro League",
+    "att": 62,
+    "mid": 63,
+    "def": 61,
+    "rating": 62
+  },
+  {
+    "teamname": "Falkenbergs FF",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 62,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Walsall",
+    "league": "EFL League Two",
+    "att": 62,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Bradford City",
+    "league": "EFL League Two",
+    "att": 62,
+    "mid": 61,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Aalesunds FK",
+    "league": "Eliteserien",
+    "att": 61,
+    "mid": 63,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Warta Poznań",
+    "league": "PKO Ekstraklasa",
+    "att": 61,
+    "mid": 63,
+    "def": 61,
+    "rating": 62
+  },
+  {
+    "teamname": "Accrington Stanley",
+    "league": "EFL League One",
+    "att": 61,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Cheltenham Town",
+    "league": "EFL League Two",
+    "att": 61,
+    "mid": 61,
+    "def": 64,
+    "rating": 62
+  },
+  {
+    "teamname": "FC Academica Clinceni",
+    "league": "Liga I",
+    "att": 61,
+    "mid": 61,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Rochdale",
+    "league": "EFL League One",
+    "att": 60,
+    "mid": 63,
+    "def": 64,
+    "rating": 62
+  },
+  {
+    "teamname": "AFC Wimbledon",
+    "league": "EFL League One",
+    "att": 60,
+    "mid": 62,
+    "def": 63,
+    "rating": 62
+  },
+  {
+    "teamname": "Aragua Fútbol Club",
+    "league": "Sudamericana",
+    "att": 60,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Forest Green Rovers",
+    "league": "EFL League Two",
+    "att": 59,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Qingdao Huanghai FC",
+    "league": "CSL",
+    "att": 58,
+    "mid": 62,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "FC Arge? Pite?ti",
+    "league": "Liga I",
+    "att": 55,
+    "mid": 63,
+    "def": 62,
+    "rating": 62
+  },
+  {
+    "teamname": "Shijiazhuang Ever Bright F.C.",
+    "league": "CSL",
+    "att": 50,
+    "mid": 63,
+    "def": 59,
+    "rating": 62
+  },
+  {
+    "teamname": "Varbergs BoIS FC",
+    "league": "Sweden Allsvenskan (1)",
+    "att": 65,
+    "mid": 62,
+    "def": 61,
+    "rating": 61
+  },
+  {
+    "teamname": "Macarthur FC",
+    "league": "A-League",
+    "att": 62,
+    "mid": 61,
+    "def": 60,
+    "rating": 61
+  },
+  {
+    "teamname": "Club Sportivo Luqueño",
+    "league": "Sudamericana",
+    "att": 61,
+    "mid": 62,
+    "def": 61,
+    "rating": 61
+  },
+  {
+    "teamname": "Southend United",
+    "league": "EFL League Two",
+    "att": 61,
+    "mid": 60,
+    "def": 61,
+    "rating": 61
+  },
+  {
+    "teamname": "Scunthorpe United",
+    "league": "EFL League Two",
+    "att": 61,
+    "mid": 60,
+    "def": 59,
+    "rating": 61
+  },
+  {
+    "teamname": "Grimsby Town",
+    "league": "EFL League Two",
+    "att": 61,
+    "mid": 60,
+    "def": 59,
+    "rating": 61
+  },
+  {
+    "teamname": "Adelaide United",
+    "league": "A-League",
+    "att": 60,
+    "mid": 63,
+    "def": 63,
+    "rating": 61
+  },
+  {
+    "teamname": "Morecambe",
+    "league": "EFL League Two",
+    "att": 60,
+    "mid": 62,
+    "def": 61,
+    "rating": 61
+  },
+  {
+    "teamname": "Leyton Orient",
+    "league": "EFL League Two",
+    "att": 60,
+    "mid": 61,
+    "def": 60,
+    "rating": 61
+  }
 ]
